@@ -70,7 +70,7 @@ education:
       Exchange semester at Sapienza University Rome – Focus: Robotics and AI
       Taught as teaching assistant courses in SDKs, Data Structures, Algorithm Design, Python, and SQL
       Specialized in machine learning and robotics.
-      Minored in Mathematics. President of AI Club.
+      Minored in Mathematics. 
 
 work:
   - position: PhD Researcher in Machine Learning and Computer Science
@@ -127,51 +127,64 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Spikeball, Standup Paddle
         description: ''
         percent: 80
         icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: Coding text adventure games
         description: ''
         percent: 90
         icon: cpu-chip
-      - name: Sci-Fi Reading
+      - name: Trying out new cooking recipes
         description: ''
         percent: 70
         icon: book-open
 
 languages:
   - name: English
+    percent: 95
+  - name: German
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Vietnamese
+    percent: 75
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+  - title: Travel Grant for Summer Schools
+    url: https://www.kavli-institute.org/
+    date: '2022-07-01'
+    awarder: Kavli Institute
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Funded participation in international summer schools during PhD studies (July–August 2022), supporting advanced training in machine learning and neuroscience.
+
+  - title: University Scholarship
+    url: https://www.studienstiftung.de/en/
+    date: '2015-10-01'
+    awarder: German National Merit Foundation (Studienstiftung des deutschen Volkes)
+    icon: hero/trophy
+    summary: |
+      Awarded by the oldest and most prestigious scholarship organization in Germany (top 0.4% of students) for exceptional academic excellence and societal engagement. Attended 30+ seminars and summer schools on Applied Machine Learning, Ethics in ML, Interdisciplinary Life Sciences, and Politics.
+
+  - title: University Scholarship
+    url: https://www.boell.de/en/foundation
+    date: '2015-10-01'
+    awarder: Heinrich-Böll Foundation
+    icon: hero/currency-dollar
+    summary: |
+      Received long-term funding for 7 years of university studies. Participated in interdisciplinary programs on sustainability, politics, and science communication.
+
+  - title: High School Scholarship
+    url: https://www.hertie-foundation.org/en/
+    date: '2012-08-01'
+    awarder: Hertie Foundation
+    icon: hero/sparkles
+    summary: |
+      Awarded 4-year scholarship for outstanding academic performance and leadership potential. Participated in 25+ seminars and summer schools on Politics and Sciences.
+
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I am a PhD researcher with 7+ years of experience in developing scalable AI models, Human-Computer-Interaction and Data Science pipelines (images, videos, audio, text, neural data), as well as 10+ years of programming experience. I am seeking a position in industry (beginning 2026) to develop AI-driven solutions and tackle complex challenges.

@@ -34,11 +34,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+       My research interest is to 
+        - develop new data science methods on multimodal data
+        - build Machine Learning models inspired by the brain
+        - contribute to human-computer-interfaces.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
     design:
       columns: '1'
   - block: collection

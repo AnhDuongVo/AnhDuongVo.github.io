@@ -85,8 +85,9 @@ sections:
       count: 100
       order: desc
     design:
-      view: compact      # simple text list, no images
+      view: list
       columns: 1
+      show_image: false 
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

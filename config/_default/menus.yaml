@@ -10,11 +10,11 @@ main:
   - name: Papers
     url: /#papers
     weight: 11
-  - name: Talks
-    url: /#talks
-    weight: 12
-  - name: News
-    url: /#news
+#  - name: Talks
+#    url: /#talks
+#    weight: 12
+  - name: Events
+    url: /#events
     weight: 13
   - name: Experience
     url: experience/
@@ -22,6 +22,6 @@ main:
   - name: Projects
     url: projects/
     weight: 30
-  - name: Courses
-    url: courses/
-    weight: 40
+#  - name: Courses
+#    url: courses/
+#    weight: 40

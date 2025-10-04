@@ -58,7 +58,7 @@ education:
   - area: PhD Computer Science (AI Focus)
     institution: ETH AI Center (ETH Zurich)
     date_start: 2021-10-01
-    date_end: on-going
+    #date_end: on-going
     summary: |
       Supervisors: Luc Van Gool, Benjamin Grewe; affiliated to Computer Vision Lab and Institute of Neuroinformatics
 #    button:
@@ -67,7 +67,7 @@ education:
   - area: BS and MS Computer Science
     institution: Goethe University Frankfurt
     date_start: 2021-10-01
-    date_end: 2015-10-1
+    date_end: 2015-10-01
     summary: |
       
       GPA: 4.0/4.0

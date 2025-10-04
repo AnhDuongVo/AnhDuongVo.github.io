@@ -58,20 +58,15 @@ education:
   - area: PhD Computer Science (AI Focus)
     institution: ETH AI Center (ETH Zurich)
     date_start: 2021-10-01
-    #date_end: on-going
+    # no date_end for ongoing
     summary: |
       Supervisors: Luc Van Gool, Benjamin Grewe; affiliated to Computer Vision Lab and Institute of Neuroinformatics
-#    button:
-#      text: 'Read Thesis'
-#      url: 'https://example.com/thesis.pdf'
   - area: BS and MS Computer Science
     institution: Goethe University Frankfurt
-    date_start: 2021-10-01
-    date_end: 2015-10-01
+    date_start: 2015-10-01
+    date_end: 2021-10-01
     summary: |
-      
       GPA: 4.0/4.0
-
       Exchange semester at Sapienza University Rome – Focus: Robotics and AI
       Taught as teaching assistant courses in SDKs, Data Structures, Algorithm Design, Python, and SQL
       Specialized in machine learning and robotics.
@@ -81,43 +76,35 @@ work:
   - position: PhD Researcher in Machine Learning and Computer Science
     company_name: ETH AI Center
     company_url: 'https://ai.ethz.ch'
-    company_logo: ''
     date_start: 2021-10-01
-    date_end: ''
+    # remove date_end (ongoing)
     summary: |
-    Developed deep learning models for regression and classification problems with multi-modal data, tackling challenges of limited data availability through self-supervised learning. Engineered scalable ML pipelines, reducing computation time from 30 days to 1 day (30x improvement). Technologies used: Python, Git, Cuda, GPU/CPU, Matlab, Hugging Face, Docker, Diffusion and Generative Models, NLP, Dimensionality Reduction (PCA), Computer Vision.
+      Developed deep learning models for regression and classification problems with multi-modal data, tackling challenges of limited data availability through self-supervised learning. Engineered scalable ML pipelines, reducing computation time from 30 days to 1 day (30x improvement). Technologies used: Python, Git, Cuda, GPU/CPU, Matlab, Hugging Face, Docker, Diffusion and Generative Models, NLP, Dimensionality Reduction (PCA), Computer Vision.
   - position: Research Assistant in Neuroscience and ML
     company_name: Frankfurt Institute of Advanced Studies
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-03-01
-    date_end: 2020-03-01
+    date_start: 2020-03-01
+    date_end: 2021-03-01
     summary: |
-    Optimized data science pipelines to process large-scale time series datasets with improved efficiency. Technologies used: Python, C/C++, Julia.
+      Optimized data science pipelines to process large-scale time series datasets with improved efficiency. Technologies used: Python, C/C++, Julia.
   - position: Working Student in Engineering
     company_name: Fresenius Medical Care
-    company_url: ''
-    company_logo: ''
-    date_start: 2018-02-01
-    date_end: 2017-09-01
+    date_start: 2017-09-01
+    date_end: 2018-02-01
     summary: |
-    Designed and implemented SQL-based data management solutions for 4 teams. Developed a department-wide website and optimized data handling workflows. Technologies used: SQL, HTML, SDKs, APIs.
+      Designed and implemented SQL-based data management solutions for 4 teams. Developed a department-wide website and optimized data handling workflows. Technologies used: SQL, HTML, SDKs, APIs.
   - position: Intern in Software Engineering
     company_name: Deutsche Bank AG
-    company_url: ''
-    company_logo: ''
     date_start: 2016-09-01
     date_end: 2016-11-01
     summary: |
-    Built an automated data analysis pipeline for 100,000+ customers to streamline financial reporting. Assisted in migrating 2 teams to Agile methodologies, optimizing data processing workflows. Technologies used: SQL, R, Jira, SDKs, APIs.
+      Built an automated data analysis pipeline for 100,000+ customers to streamline financial reporting. Assisted in migrating 2 teams to Agile methodologies, optimizing data processing workflows. Technologies used: SQL, R, Jira, SDKs, APIs.
   - position: Working Student in Research
     company_name: Frankfurt School of Finance & Management
-    company_url: ''
-    company_logo: ''
-    date_start: 2017-02-01
-    date_end: 2016-11-01
+    date_start: 2016-11-01
+    date_end: 2017-02-01
     summary: |
-    Collected and analyzed finance and marketing data to support faculty research projects.
+      Collected and analyzed finance and marketing data to support faculty research projects.
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -133,8 +120,7 @@ skills:
         #percent: 100
         icon: chart-bar
       - name: Other tools
-        description: 'git, cuda, make, cmake, Jupyter, UNIX/Linux, VSCode, bash, Xcode, Latex, SDKs, APIs, Hugging Face,
-Docker, Parallel Computing, HPC, GPU/CPU'
+        description: 'git, cuda, make, cmake, Jupyter, UNIX/Linux, VSCode, bash, Xcode, Latex, SDKs, APIs, Hugging Face, Docker, Parallel Computing, HPC, GPU/CPU'
         #percent: 85
         icon: cloud
   - name: Hobbies

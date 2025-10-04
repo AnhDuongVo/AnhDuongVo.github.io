@@ -129,16 +129,20 @@ skills:
     items:
       - name: Spikeball, Standup Paddle
         description: ''
-        percent: 80
+        percent: 70
         icon: person-simple-walk
-      - name: Coding text adventure games
+      - name: Creating games for friends
         description: ''
         percent: 90
         icon: cpu-chip
       - name: Trying out new cooking recipes
         description: ''
-        percent: 70
+        percent: 80
         icon: book-open
+      - name: Dogsitting
+        description: ''
+        percent: 90
+        icon: dog
 
 languages:
   - name: English
@@ -187,4 +191,15 @@ awards:
 
 ---
 
-I am a PhD researcher with 7+ years of experience in developing scalable AI models, Human-Computer-Interaction and Data Science pipelines (images, videos, audio, text, neural data), as well as 10+ years of programming experience. I am seeking a position in industry (beginning 2026) to develop AI-driven solutions and tackle complex challenges.
+Hi, I’m Duong, a PhD student at the ETH AI Center in Zurich, working at the intersection of Machine Learning and Neuroscience under the supervision of Prof. Dr. Benjamin Grewe and Prof. Dr. Luc Van Gool.
+
+I have over 7 years of experience developing scalable AI models, human-computer interaction systems, and data science pipelines across modalities such as images, videos, audio, text, and neural data — supported by 10+ years of programming experience.
+
+My research focuses on
+- developing data science methods for multimodal data,
+- building brain-inspired machine learning models, and
+- advancing human-computer interfaces that bridge AI and people.
+
+At the ETH AI Center, I greatly enjoy collaborating across disciplines — from neuroscience and psychology to hardware, education, and computer vision — together with both academic and industry partners.
+
+I am currently exploring industry opportunities starting in 2026 to apply AI research toward impactful, real-world solutions. If you’d like to chat or explore collaboration, feel free to reach out via email or LinkedIn — I’d love to connect!

@@ -75,13 +75,13 @@ sections:
  #   design:
  #     view: card
   - block: collection
-    id: events
+    id: news
     content:
       title: Here you can find me next
       subtitle: ''
       filters:
         folders:
-          - events
+          - news
     design:
       view: card
   - block: cta-card

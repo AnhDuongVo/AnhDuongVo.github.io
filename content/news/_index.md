@@ -10,4 +10,9 @@ view: card
 image:
   caption: ''
   filename: ''
+
+cascade:
+  type: news
+  image:
+    preview_only: true
 ---

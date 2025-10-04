@@ -80,14 +80,12 @@ sections:
       title: Where you can meet me next
       subtitle: ''
       filters:
-        folders:
-          - news       # use 'event' if you renamed the folder
+        page_type: news       # use 'event' if you renamed the folder
       count: 100
       order: desc
     design:
-      view: list
+      view: card
       columns: 1
-      show_image: false 
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

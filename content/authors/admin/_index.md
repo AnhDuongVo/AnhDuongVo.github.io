@@ -78,39 +78,64 @@ education:
       Minored in Mathematics. President of AI Club.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: PhD Researcher in Machine Learning and Computer Science
+    company_name: ETH AI Center
+    company_url: 'https://ai.ethz.ch'
     company_logo: ''
-    date_start: 2020-01-01
+    date_start: 2021-10-01
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+    Developed deep learning models for regression and classification problems with multi-modal data, tackling challenges of limited data availability through self-supervised learning. Engineered scalable ML pipelines, reducing computation time from 30 days to 1 day (30x improvement). Technologies used: Python, Git, Cuda, GPU/CPU, Matlab, Hugging Face, Docker, Diffusion and Generative Models, NLP, Dimensionality Reduction (PCA), Computer Vision.
+  - position: Research Assistant in Neuroscience and ML
+    company_name: Frankfurt Institute of Advanced Studies
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-03-01
+    date_end: 2020-03-01
+    summary: |
+    Optimized data science pipelines to process large-scale time series datasets with improved efficiency. Technologies used: Python, C/C++, Julia.
+  - position: Working Student in Engineering
+    company_name: Fresenius Medical Care
+    company_url: ''
+    company_logo: ''
+    date_start: 2018-02-01
+    date_end: 2017-09-01
+    summary: |
+    Designed and implemented SQL-based data management solutions for 4 teams. Developed a department-wide website and optimized data handling workflows. Technologies used: SQL, HTML, SDKs, APIs.
+  - position: Intern in Software Engineering
+    company_name: Deutsche Bank AG
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-09-01
+    date_end: 2016-11-01
+    summary: |
+    Built an automated data analysis pipeline for 100,000+ customers to streamline financial reporting. Assisted in migrating 2 teams to Agile methodologies, optimizing data processing workflows. Technologies used: SQL, R, Jira, SDKs, APIs.
+  - position: Working Student in Research
+    company_name: Frankfurt School of Finance & Management
+    company_url: ''
+    company_logo: ''
+    date_start: 2017-02-01
+    date_end: 2016-11-01
+    summary: |
+    Collected and analyzed finance and marketing data to support faculty research projects.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
+      - name: Programming
+        description: 'Python, C++, Matlab, SQL, R, Julia, C, Haskell'
+        #percent: 95
         icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
+      - name: Libraries
+        description: 'numpy, PyTorch, Tensorflow, pandas, scipy, scikit-learn, matplotlib, OpenCV'
+        #percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
+      - name: Other tools
+        description: 'git, cuda, make, cmake, Jupyter, UNIX/Linux, VSCode, bash, Xcode, Latex, SDKs, APIs, Hugging Face,
+Docker, Parallel Computing, HPC, GPU/CPU'
+        #percent: 85
         icon: cloud
   - name: Hobbies
     color: '#eeac02'

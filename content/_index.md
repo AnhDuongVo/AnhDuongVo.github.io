@@ -75,16 +75,18 @@ sections:
  #   design:
  #     view: card
   - block: collection
-    id: news
+    id: events
     content:
-      title: Here you can find me next
+      title: Where you can meet me next
       subtitle: ''
       filters:
         folders:
-          - news
+          - events        # use 'event' if you renamed the folder
+      count: 100
+      order: desc
     design:
-      view: article-grid
-      columns: 3
+      view: compact      # simple text list, no images
+      columns: 1
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

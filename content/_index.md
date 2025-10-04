@@ -75,13 +75,13 @@ sections:
  #   design:
  #     view: card
   - block: collection
-    id: events
+    id: news
     content:
       title: Where you can meet me next
       subtitle: ''
       filters:
         folders:
-          - events        # use 'event' if you renamed the folder
+          - news       # use 'event' if you renamed the folder
       count: 100
       order: desc
     design:

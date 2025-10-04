@@ -2,14 +2,7 @@
 title: "Lost in Translation? LLMs, Education, and Linguistic Fairness"
 authors:
   - Noga Mudrik
-  - Eva Yezerets
-  - Xiaoxuan Lei
-  - Clara Lemaitre
-  - Adrian Perez Dieguez
-  - Alekhya Dronavalli
-  - Alice Amitrano
-  - Amani Love
-  - Amir Hossein Daraie
+  - ...
   - Anh Duong Vo
   - Others
 date: "2025-03-01T00:00:00Z"

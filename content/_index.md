@@ -21,7 +21,6 @@ sections:
       avatar:
         size: medium
         shape: circle
-
   - block: markdown
     content:
       title: '📚 My Research'
@@ -53,6 +52,18 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: collection
+    id: projects
+    content:
+      title: Research & Projects
+      text: ''
+      filters:
+        folders:
+          - projects
+        exclude_featured: false
+    design:
+      view: card
+      columns: '3'
   - block: cta-card
     demo: true
     content:

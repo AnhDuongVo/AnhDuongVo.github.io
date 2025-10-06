@@ -42,7 +42,6 @@ sections:
       filters:
         folders:
           - projects
-        page_type: project     # extra safety
         exclude_featured: false
       sort_by: weight          # or 'date'
       sort_ascending: false

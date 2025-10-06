@@ -1,9 +1,3 @@
-- title: "Society for Neuroscience, poster presentation (Chicago)"
-  url: ""
-  location: "Chicago, US"
-  start: "2024-10-05"
-  end:   "2024-10-09"
-
 - title: "AI+X Summit (ETH AI Center)"
   url: ""
   location: "Zurich, Switzerland"
@@ -16,8 +10,45 @@
   start: "2024-06-25"
   end:   "2024-06-29"
 
-- title: "AI+X Summit, co-organized academic village (ETH AI Center)"
+- title: "Society for Neuroscience, poster presentation (Chicago)"
+  url: ""
+  location: "Chicago, US"
+  start: "2024-10-05"
+  end:   "2024-10-09"
+
+- title: "AI+X Summit — co-organized Academic Village (ETH AI Center)"
   url: ""
   location: "Zurich, Switzerland"
   start: "2022-10-14"
   end:   "2022-10-14"
+
+- title: "Bernstein Conference, poster presentation"
+  url: ""
+  location: "Berlin, Germany"
+  start: "2023-09-26"
+  end:   "2023-09-29"
+
+- title: "Summer School on “Mathematical Methods in Computational Neuroscience” (Kavli Institute)"
+  url: ""
+  location: "Eresfjord, Norway"
+  start: "2022-07-20"
+  end:   "2022-08-05"
+
+- title: "Cortical microcircuits to consciousness (CORTICON)"
+  url: ""
+  location: "Paris, France"
+  start: "2022-04-11"
+  end:   "2022-04-13"
+
+- title: "Computational Neuroscience and Machine Learning (Neuromatch Academy)"
+  url: ""
+  location: "online"
+  start: "2020-07-13"
+  end:   "2020-07-31"
+
+# NEW
+- title: "AI+X Summit (ETH AI Center)"
+  url: ""
+  location: "Zurich, Switzerland"
+  start: "2025-10-02"
+  end:   "2025-10-02"

@@ -36,11 +36,12 @@ sections:
     design:
       columns: '1'
   - block: markdown
-    content:
-      title: "Where you can meet me next"
-      text: '{{< events_table >}}'
-    design:
-      columns: '1'
+      content:
+        title: "Where you can meet me next"
+        text: '{{< events_table limit="5" seeall="/news/" seeall_text="See all news" >}}'
+      design:
+        columns: '1'
+
   - block: collection
     id: papers
     content:

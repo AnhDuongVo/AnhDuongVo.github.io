@@ -1,0 +1,20 @@
+.events-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.events-table th, .events-table td {
+  padding: .6rem .5rem;
+  border-bottom: 1px solid var(--hb-border, rgba(0,0,0,.08));
+}
+.events-table a { text-decoration: none; }
+.pill {
+  display: inline-block;
+  padding: .15rem .55rem;
+  border-radius: 999px;
+  font-size: .82rem;
+  line-height: 1.4;
+  background: var(--hb-muted-bg, #eef2f7);
+}
+.pill.upcoming { background: #e6f7ee; color: #136f3a; }
+.pill.past     { background: #eef1f4; color: #4f5b66; }

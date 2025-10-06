@@ -35,7 +35,12 @@ sections:
         - contribute to human-computer-interfaces.
     design:
       columns: '1'
-
+  - block: markdown
+    content:
+      title: "Where you can meet me next"
+      text: '{{< events_table >}}'
+    design:
+      columns: '1'
   - block: collection
     id: papers
     content:

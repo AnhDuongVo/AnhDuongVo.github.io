@@ -1,0 +1,39 @@
+{{/* Sort by start date desc (most recent first). Change to asc if you like. */}}
+{{ $events := sort site.Data.events "start" "desc" }}
+
+<table class="events-table">
+  <thead>
+    <tr>
+      <th style="text-align:left;">Event</th>
+      <th style="text-align:left;">Location</th>
+      <th style="text-align:left;">Date</th>
+      <th style="text-align:left;">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ range $events }}
+    {{ $start := time .start }}
+    {{ $end   := time (cond (isset . "end") .end .start) }}
+    {{ $now   := now }}
+    {{/* Status: Upcoming if end >= today; else Past */}}
+    {{ $status := cond (ge (time (printf "%sT23:59:59Z" (dateFormat "2006-01-02" $end))) $now) "Upcoming" "Past" }}
+
+    <tr>
+      <td>
+        {{ if .url }}<a href="{{ .url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
+      </td>
+      <td>{{ .location }}</td>
+      <td>
+        {{ if eq (dateFormat "2006-01-02" $start) (dateFormat "2006-01-02" $end) }}
+          {{ dateFormat "January 2, 2006" $start }}
+        {{ else }}
+          {{ dateFormat "January 2, 2006" $start }} → {{ dateFormat "January 2, 2006" $end }}
+        {{ end }}
+      </td>
+      <td>
+        <span class="pill {{ lower $status }}">{{ $status }}</span>
+      </td>
+    </tr>
+  {{ end }}
+  </tbody>
+</table>

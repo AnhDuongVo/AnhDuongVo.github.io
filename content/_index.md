@@ -5,55 +5,37 @@ date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
   spacing: '6rem'
 
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ''
-      # Show a call-to-action button under your biography? (optional)
-      #button:
-      #  text: Download CV
-      #  url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
         interests: ''
     design:
-      # Apply a gradient background
       css_class: hbx-bg-gradient
-      # Avatar customization
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
+        size: medium
+        shape: circle
+
   - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-       At the ETH AI Center, I greatly enjoy collaborating across disciplines — from neuroscience and psychology to hardware, education, and computer vision — together with both academic and industry partners.
-       
-       My research interest is to 
+        At the ETH AI Center, I greatly enjoy collaborating across disciplines — from neuroscience and psychology to hardware, education, and computer vision — together with both academic and industry partners.
+
+        My research interest is to 
         - develop new data science methods on multimodal data
         - build Machine Learning models inspired by the brain
         - contribute to human-computer-interfaces.
-
     design:
       columns: '1'
-#  - block: collection
-#    id: papers
-#    content:
-#      title: Featured Publications
-#      filters:
-#        folders:
-#          - publications
-#        featured_only: true
-#    design:
-#      view: article-grid
-#      columns: 2
+
   - block: collection
     id: papers
     content:
@@ -65,31 +47,23 @@ sections:
         exclude_featured: false
     design:
       view: citation
- # - block: collection
- #   id: talks
- #   content:
- #     title: Recent & Upcoming Talks
- #     filters:
- #       folders:
- #         - events
- #   design:
- #     view: card
-- block: collection
-  id: news
-  content:
-    title: Where you can meet me next
-    text: ''
-    filters:
-      folders: [news]
-  design:
-    view: list         # list, not compact
-    columns: '1'
-    show_image: false
-    show_summary: true # or false if you want just title+date
-    show_date: true
+
+  - block: collection
+    id: news
+    content:
+      title: Where you can meet me next
+      text: ''
+      filters:
+        folders: [news]
+    design:
+      view: list
+      columns: '1'
+      show_image: false
+      show_summary: true
+      show_date: true
 
   - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+    demo: true
     content:
       title: 👉 Build your own academic website like this
       text: |-
@@ -105,7 +79,6 @@ sections:
         url: https://hugoblox.com/templates/
     design:
       card:
-        # Card background color (CSS class)
         css_class: 'bg-primary-300'
         css_style: ''
 ---

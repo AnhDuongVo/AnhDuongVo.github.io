@@ -83,7 +83,11 @@ sections:
         folders:
           - news
     design:
-      view: compact
+      view: list
+      columns: '1'
+      show_image: false
+      show_summary: true
+      show_date: true
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

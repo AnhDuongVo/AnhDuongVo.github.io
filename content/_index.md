@@ -52,6 +52,7 @@ sections:
       show_date: false
       show_author: false
   - block: markdown
+    id: news
     content:
       title: "Where you can meet me next"
       text: |-

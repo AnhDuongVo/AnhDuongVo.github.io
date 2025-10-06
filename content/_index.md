@@ -34,6 +34,24 @@ sections:
         - contribute to human-computer-interfaces.
     design:
       columns: '1'
+  - block: collection
+    id: projects
+    content:
+      title: Research & Projects
+      text: ''
+      filters:
+        folders:
+          - projects
+        page_type: project     # extra safety
+        exclude_featured: false
+      sort_by: weight          # or 'date'
+      sort_ascending: false
+    design:
+      view: card               # or 'article-grid' if you prefer
+      columns: 3               # number, not string, also fine as '3'
+      show_image: true         # set to false for text-only
+      show_date: false
+      show_author: false
   - block: markdown
     content:
       title: "Where you can meet me next"
@@ -52,18 +70,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: projects
-    content:
-      title: Research & Projects
-      text: ''
-      filters:
-        folders:
-          - projects
-        exclude_featured: false
-    design:
-      view: card
-      columns: '3'
   - block: cta-card
     demo: true
     content:

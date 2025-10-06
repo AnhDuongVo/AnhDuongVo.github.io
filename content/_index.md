@@ -46,7 +46,7 @@ sections:
       sort_by: weight          # or 'date'
       sort_ascending: false
     design:
-      view: card               # or 'article-grid' if you prefer
+      view: article-grid               # or 'article-grid' if you prefer
       columns: 3               # number, not string, also fine as '3'
       show_image: true         # set to false for text-only
       show_date: false

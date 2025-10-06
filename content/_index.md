@@ -36,12 +36,12 @@ sections:
     design:
       columns: '1'
   - block: markdown
-      content:
-        title: "Where you can meet me next"
-        text: '{{< events_table limit="5" seeall="/news/" seeall_text="See all news" >}}'
-      design:
-        columns: '1'
-
+    content:
+      title: "Where you can meet me next"
+      text: |-
+        {{< events_table limit="5" seeall="/news/" seeall_text="See all news" >}}
+    design:
+      columns: '1'
   - block: collection
     id: papers
     content:
@@ -53,21 +53,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-
-  - block: collection
-    id: news
-    content:
-      title: Where you can meet me next
-      text: ''
-      filters:
-        folders: [news]
-    design:
-      view: list
-      columns: '1'
-      show_image: false
-      show_summary: true
-      show_date: true
-
   - block: cta-card
     demo: true
     content:

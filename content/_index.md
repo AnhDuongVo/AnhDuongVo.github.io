@@ -74,20 +74,20 @@ sections:
  #         - events
  #   design:
  #     view: card
-  - block: collection
-    id: news
-    content:
-      title: Where you can meet me next
-      text: ''
-      filters:
-        folders:
-          - news
-    design:
-      view: list
-      columns: '1'
-      show_image: false
-      show_summary: true
-      show_date: true
+- block: collection
+  id: news
+  content:
+    title: Where you can meet me next
+    text: ''
+    filters:
+      folders: [news]
+  design:
+    view: list         # list, not compact
+    columns: '1'
+    show_image: false
+    show_summary: true # or false if you want just title+date
+    show_date: true
+
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

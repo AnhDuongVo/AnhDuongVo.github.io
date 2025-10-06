@@ -20,5 +20,5 @@ image:
 links: []
 slides: ""
 projects: []
-type: event
+type: post
 ---

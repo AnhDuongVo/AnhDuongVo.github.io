@@ -117,7 +117,7 @@ skills:
         #percent: 95
         icon: code-bracket
       - name: Libraries
-        description: 'numpy, PyTorch, Tensorflow, pandas, scipy, scikit-learn, matplotlib, OpenCV'
+        description: 'numpy, PyTorch, Tensorflow, multimodal, scipy, scikit-learn, matplotlib, OpenCV'
         #percent: 100
         icon: chart-bar
       - name: Other tools

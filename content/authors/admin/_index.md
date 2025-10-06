@@ -48,6 +48,7 @@ profiles:
  #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
+  - Software Engineering
   - Human-Computer-Interaction
   - Large Language Models
   - Computer Vision

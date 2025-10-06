@@ -37,7 +37,10 @@
 </table>
 
 {{ with .Get "seeall" }}
-  <div style="margin-top:.6rem">
-    <a href="{{ . }}">{{ with $.Get "seeall_text" }}{{ . }}{{ else }}See all{{ end }} →</a>
+  {{/* use Hugo Blox’s built-in “see all” button styling */}}
+  <div class="block-see-all">
+    <a class="btn btn-outline-primary" href="{{ . }}">
+      {{ with $.Get "seeall_text" }}{{ . }}{{ else }}See all{{ end }}
+    </a>
   </div>
 {{ end }}

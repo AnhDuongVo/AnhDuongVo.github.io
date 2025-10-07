@@ -7,6 +7,8 @@
 appearance:
   mode: system
   color: indigo
+  theme_day_night: false     # disables toggle button
+  theme: light               # force light theme
 
 # SEO
 marketing:

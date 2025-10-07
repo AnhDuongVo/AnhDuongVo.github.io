@@ -27,10 +27,10 @@ sections:
       text: |-
         <div align="center">
 
-        <img src="eth.png" alt="ETH Zurich" height="60" style="margin:15px;">
-        <img src="aicenter.png" alt="ETH AI Center" height="60" style="margin:15px;">
-        <img src="cvl.png" alt="CVL" height="60" style="margin:15px;">
-        <img src="ini.png" alt="INI" height="60" style="margin:15px;">
+        <img src="eth.png" alt="ETH Zurich" height="25" style="margin:15px;">
+        <img src="aicenter.png" alt="ETH AI Center" height="25" style="margin:15px;">
+        <img src="cvl.png" alt="CVL" height="25" style="margin:15px;">
+        <img src="ini.png" alt="INI" height="25" style="margin:15px;">
 
         </div>
     design:

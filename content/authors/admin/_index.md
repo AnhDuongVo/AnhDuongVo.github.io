@@ -54,7 +54,6 @@ interests:
   - Computer Vision
   - Multi-modal data
   
-
 education:
   - area: PhD Computer Science (AI Focus)
     institution: ETH AI Center (ETH Zurich)

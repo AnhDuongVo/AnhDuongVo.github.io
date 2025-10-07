@@ -191,7 +191,7 @@ awards:
 
 ---
 
-Hi, I’m Duong, a PhD student at the ETH AI Center in Zurich, working at the intersection of Machine Learning and Neural Networks under the supervision of Prof. Dr. Benjamin Grewe and Prof. Dr. Luc Van Gool.
+Hi, I’m Duong, a PhD student at the ETH AI Center in Zurich, working at the intersection of Machine Learning, and Neural Networks under the supervision of Prof. Dr. Benjamin Grewe and Prof. Dr. Luc Van Gool.
 
 I have over 7 years of experience developing scalable AI models, human-computer interaction systems, and data science pipelines across modalities such as images, videos, audio, text, and neural data — supported by 10+ years of programming experience.
 
@@ -199,7 +199,7 @@ I am currently exploring industry opportunities starting in 2026 to apply AI res
 
 <div class="affiliations">
   <a href="https://ethz.ch" target="_blank" rel="noopener" aria-label="ETH Zurich">
-    <img src="eth.png" alt="ETH Zurich" />
+    <img src="eth.png" alt="ETH Zurich"/>
   </a>
 
   <a href="https://ai.ethz.ch" target="_blank" rel="noopener" aria-label="ETH AI Center">

@@ -18,3 +18,29 @@
 }
 .pill.upcoming { background: #e6f7ee; color: #136f3a; }
 .pill.past     { background: #eef1f4; color: #4f5b66; }
+
+/* --- Affiliations inside biography panel --- */
+.hbx-bg-gradient .affiliations {
+  display: flex;
+  flex-wrap: wrap;               /* wrap to next line on small screens */
+  justify-content: center;       /* center horizontally */
+  align-items: center;
+  gap: 20px;                     /* spacing between logos */
+  margin-top: 12px;
+}
+
+.hbx-bg-gradient .affiliations img {
+  height: 18px;                  /* smaller logos */
+  max-width: 110px;              /* prevent very wide ones */
+  object-fit: contain;           /* keep proportions */
+  filter: grayscale(100%);
+  opacity: 0.85;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.hbx-bg-gradient .affiliations a:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: translateY(-1px);
+}

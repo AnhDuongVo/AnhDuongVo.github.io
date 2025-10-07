@@ -21,24 +21,11 @@ sections:
       avatar:
         size: medium
         shape: circle
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        At the ETH AI Center, I greatly enjoy collaborating across disciplines — from neuroscience and psychology to hardware, education, and computer vision — together with both academic and industry partners.
-
-        My research interest is to 
-        - develop new data science methods on multimodal data
-        - build Machine Learning models inspired by the brain
-        - contribute to human-computer-interfaces.
-    design:
-      columns: '1'
   - block: collection
     id: projects
     content:
-      title: Research & Projects
-      text: 
+      title: 'Research & Projects'
+      text: |-
         At the ETH AI Center, I greatly enjoy collaborating across disciplines — from neuroscience and psychology to hardware, education, and computer vision — together with both academic and industry partners.
 
         My research interest is to 

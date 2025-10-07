@@ -1,5 +1,5 @@
 ---
-title: Generative models and smart wearables
+title: LLMs, Generative models and smart wearables
 ---
 ## Predicting eye movement with EEG/EOG data
 Work:
@@ -10,16 +10,17 @@ Applications in industry:
 - Automotive
 - Wearables
 
-## Generating images based on EEG data
+## Generating images and text based on EEG data
 Work:
-- Using diffusion models to generate images based on neural data
+- Using diffusion models to generate images and text based on neural data
 - supervised Master student with following code: https://github.com/AnhDuongVo/thesis_eeg_image_reconstruction
 
 Applications in industry:
 - Consumer Behavior
 - Healthcare: Information about how users process environment
+- Wearables and app development
 
-## Work on current limitations of Large Language models
+## Limitations of Large Language models
 Work:
 - Collaborating with researchers all over the world to create a study on limitations of Large Language models for different languages across the world
 - Publication: Noga Mudrik, ..., Anh Duong Vo, Others (2025). Lost in Translation? LLMs, Education, and Linguistic Fairness. IEEE ISEC 2025.

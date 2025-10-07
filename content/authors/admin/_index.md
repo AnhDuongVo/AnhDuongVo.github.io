@@ -159,7 +159,8 @@ languages:
 awards:
   - title: Travel Grant for Summer Schools
     url: https://www.kavli-institute.org/
-    date: '2022-07-01'
+    date_start: '2022-07-01'
+    date_end: '2022-08-01'
     awarder: Kavli Institute
     icon: hero/academic-cap
     summary: |
@@ -167,7 +168,8 @@ awards:
 
   - title: University Scholarship
     url: https://www.studienstiftung.de/en/
-    date: '2015-10-01'
+    date_start: '2015-10-01'
+    date_end: '2021-10-01'
     awarder: German National Merit Foundation (Studienstiftung des deutschen Volkes)
     icon: hero/trophy
     summary: |
@@ -175,7 +177,8 @@ awards:
 
   - title: University Scholarship
     url: https://www.boell.de/en/foundation
-    date: '2015-10-01'
+    date_start: '2015-10-01'
+    date_end: '2021-10-01'
     awarder: Heinrich-Böll Foundation
     icon: hero/currency-dollar
     summary: |
@@ -183,7 +186,8 @@ awards:
 
   - title: High School Scholarship
     url: https://www.hertie-foundation.org/en/
-    date: '2012-08-01'
+    date_start: '2012-08-01'
+    date_end: '2015-10-01'
     awarder: Hertie Foundation
     icon: hero/sparkles
     summary: |

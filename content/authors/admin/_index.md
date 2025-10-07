@@ -81,7 +81,7 @@ work:
     # remove date_end (ongoing)
     summary: |
       Developed deep learning models for regression and classification problems with multi-modal data, tackling challenges of limited data availability through self-supervised learning. Engineered scalable ML pipelines, reducing computation time from 30 days to 1 day (30x improvement). Technologies used: Python, Git, Cuda, GPU/CPU, Matlab, Hugging Face, Docker, Diffusion and Generative Models, NLP, Dimensionality Reduction (PCA), Computer Vision.
-  - position: Research Assistant in Neuroscience and ML
+  - position: Research Assistant in Neural Networks and ML
     company_name: Frankfurt Institute of Advanced Studies
     date_start: 2020-03-01
     date_end: 2021-03-01
@@ -143,7 +143,7 @@ skills:
       - name: Dogsitting
         description: ''
         percent: 90
-        icon: dog
+        icon: paw
 
 languages:
   - name: English

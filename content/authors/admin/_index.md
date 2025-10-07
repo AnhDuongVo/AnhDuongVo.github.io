@@ -198,8 +198,19 @@ I have over 7 years of experience developing scalable AI models, human-computer 
 I am currently exploring industry opportunities starting in 2026 to apply AI research toward impactful, real-world solutions. If you’d like to chat or explore collaboration, feel free to reach out via email or LinkedIn — I’d love to connect!
 
 <div class="affiliations">
-  <img src="eth.png" alt="ETH Zurich" height="25"/>
-  <img src="aicenter.png" alt="ETH AI Center" height="25"/>
-  <img src="cvl.png" alt="Computer Vision Lab" height="25"/>
-  <img src="ini.png" alt="Institute of Neuroinformatics" height="25"/>
+  <a href="https://ethz.ch" target="_blank" rel="noopener" aria-label="ETH Zurich">
+    <img src="eth.png" alt="ETH Zurich" />
+  </a>
+
+  <a href="https://ai.ethz.ch" target="_blank" rel="noopener" aria-label="ETH AI Center">
+    <img src="aicenter.png" alt="ETH AI Center" />
+  </a>
+
+  <a href="https://vision.ee.ethz.ch/" target="_blank" rel="noopener" aria-label="Computer Vision Lab ETH Zurich">
+    <img src="cvl.png" alt="Computer Vision Lab ETH Zurich" />
+  </a>
+
+  <a href="https://www.ini.uzh.ch/" target="_blank" rel="noopener" aria-label="Institute of Neuroinformatics ETH Zurich & UZH">
+    <img src="ini.png" alt="Institute of Neuroinformatics ETH Zurich & UZH" />
+  </a>
 </div>

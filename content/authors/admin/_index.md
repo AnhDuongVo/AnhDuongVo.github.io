@@ -47,6 +47,20 @@ profiles:
  # - icon: academicons/orcid
  #   url: https://orcid.org/0000-0002-1825-0097
 
+affiliations:
+  - name: ETH Zurich
+    url: https://ethz.ch
+    logo: /media/logos/eth.png
+  - name: ETH AI Center
+    url: https://ai.ethz.ch
+    logo: /media/logos/aicenter.png
+  - name: Computer Vision Lab
+    url: https://vision.ee.ethz.ch/
+    logo: /media/logos/cvl.png
+  - name: Institute of Neuroinformatics
+    url: https://www.ini.uzh.ch/
+    logo: /media/logos/ini.png
+
 bio_after:
   html: |-
     <div class="affiliations-side">

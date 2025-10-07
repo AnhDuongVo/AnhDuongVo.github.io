@@ -3,9 +3,7 @@ title: Understanding more about the brain and developing models
 ---
 Work:
 - Movement prediction
-![''](image-6.png)
 - Transfer learning and generalization
-![''](synapse.png)
 - Learning on a synaptic scale
 
 Applications in industry:
@@ -15,4 +13,5 @@ Applications in industry:
 - Healthcare: Using wearables to measure emotions in prefrontal cortex (front head) for therapeutic purposes.
 - Advertising: Measure the emotional effect of advertisement.
 
-<!--more-->
+![''](image-6.png)
+![''](synapse.png)

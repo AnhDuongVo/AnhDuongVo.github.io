@@ -26,4 +26,4 @@ Work:
 
 Applications in industry:
 - Applying LLMs for different languages
-<!--more-->
+

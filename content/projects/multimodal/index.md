@@ -5,9 +5,7 @@ title: Applying new data analysis or ML methods to analyze multi-modal time seri
 Work:
 - Using parallelization and GPU/CPU to improve data analysis pipelines
 - Denoising neural data and extracting important features
-![''](image-3.png)
 - Dealing with small datasets
-![''](image-4.png)
 - Classifying behavior in images
 
 Application in industry:
@@ -17,4 +15,5 @@ Application in industry:
 - Automated data labelling to train models for smart wearables
 - Various Data analysis cases where limited time series data is a problem
 
-<!--more-->
+![''](image-3.png)
+![''](image-4.png)

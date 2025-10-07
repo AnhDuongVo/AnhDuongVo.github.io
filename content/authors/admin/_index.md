@@ -27,8 +27,18 @@ role: Phd Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
+  - name: ETH Zurich
+    url: https://ethz.ch
+    logo: /media/logos/eth.png
   - name: ETH AI Center
     url: https://ai.ethz.ch
+    logo: /media/logos/aicenter.png
+  - name: Computer Vision Lab
+    url: https://vision.ee.ethz.ch/
+    logo: /media/logos/cvl.png
+  - name: Institute of Neuroinformatics
+    url: https://www.ini.uzh.ch/
+    logo: /media/logos/ini.png
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.

@@ -198,5 +198,5 @@ I have over 7 years of experience developing scalable AI models, human-computer 
 I am currently exploring industry opportunities starting in 2026 to apply AI research toward impactful, real-world solutions. If you’d like to chat or explore collaboration, feel free to reach out via email or LinkedIn — I’d love to connect!
 
 <div class="affiliations">
-  <img src="/media/logoslogos.png" alt="ETH Zurich">
+  <img src="/media/logos/logos.png" alt="ETH Zurich">
 </div>

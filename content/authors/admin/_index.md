@@ -47,6 +47,23 @@ profiles:
  # - icon: academicons/orcid
  #   url: https://orcid.org/0000-0002-1825-0097
 
+bio_after:
+  html: |-
+    <div class="affiliations-side">
+      <a href="https://ethz.ch" target="_blank" rel="noopener" aria-label="ETH Zurich">
+        <img src="/media/logos/eth.png" alt="ETH Zurich">
+      </a>
+      <a href="https://ai.ethz.ch" target="_blank" rel="noopener" aria-label="ETH AI Center">
+        <img src="/media/logos/aicenter.png" alt="ETH AI Center">
+      </a>
+      <a href="https://vision.ee.ethz.ch/" target="_blank" rel="noopener" aria-label="Computer Vision Lab ETH Zurich">
+        <img src="/media/logos/cvl.png" alt="Computer Vision Lab ETH Zurich">
+      </a>
+      <a href="https://www.ini.uzh.ch/" target="_blank" rel="noopener" aria-label="Institute of Neuroinformatics ETH Zurich & UZH">
+        <img src="/media/logos/ini.png" alt="Institute of Neuroinformatics ETH Zurich & UZH">
+      </a>
+    </div>
+
 interests:
   - Software Engineering
   - Human-Computer-Interaction
@@ -196,19 +213,4 @@ Hi, I’m Duong, a PhD student at the ETH AI Center in Zurich, working at the in
 I have over 7 years of experience developing scalable AI models, human-computer interaction systems, and data science pipelines across modalities such as images, videos, audio, text, and neural data — supported by 10+ years of programming experience.
 
 I am currently exploring industry opportunities starting in 2026 to apply AI research toward impactful, real-world solutions. If you’d like to chat or explore collaboration, feel free to reach out via email or LinkedIn — I’d love to connect!
-
-<div class="affiliations">
-  <a href="https://ethz.ch" target="_blank" rel="noopener" aria-label="ETH Zurich">
-    <img src="/media/logos/eth.png" alt="ETH Zurich" />
-  </a>
-  <a href="https://ai.ethz.ch" target="_blank" rel="noopener" aria-label="ETH AI Center">
-    <img src="/media/logos/aicenter.png" alt="ETH AI Center" />
-  </a>
-  <a href="https://vision.ee.ethz.ch/" target="_blank" rel="noopener" aria-label="Computer Vision Lab ETH Zurich">
-    <img src="/media/logos/cvl.png" alt="Computer Vision Lab ETH Zurich" />
-  </a>
-  <a href="https://www.ini.uzh.ch/" target="_blank" rel="noopener" aria-label="Institute of Neuroinformatics ETH Zurich & UZH">
-    <img src="/media/logos/ini.png" alt="Institute of Neuroinformatics ETH Zurich & UZH" />
-  </a>
-</div>
 

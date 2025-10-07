@@ -14,4 +14,3 @@ Applications in industry:
 - Advertising: Measure the emotional effect of advertisement.
 
 ![''](image-6.png)
-![''](synapse.png)

@@ -198,8 +198,8 @@ I have over 7 years of experience developing scalable AI models, human-computer 
 I am currently exploring industry opportunities starting in 2026 to apply AI research toward impactful, real-world solutions. If you’d like to chat or explore collaboration, feel free to reach out via email or LinkedIn — I’d love to connect!
 
 <div class="affiliations">
-  <img src="eth.png" alt="ETH Zurich" />
-  <img src="aicenter.png" alt="ETH AI Center" />
-  <img src="cvl.png" alt="Computer Vision Lab" />
-  <img src="ini.png" alt="Institute of Neuroinformatics" />
+  <img src="eth.png" alt="ETH Zurich" height="25"/>
+  <img src="aicenter.png" alt="ETH AI Center" height="25"/>
+  <img src="cvl.png" alt="Computer Vision Lab" height="25"/>
+  <img src="ini.png" alt="Institute of Neuroinformatics" height="25"/>
 </div>

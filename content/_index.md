@@ -25,13 +25,8 @@ sections:
     id: projects
     content:
       title: 'Research & Projects'
-      text: |-
-        At the ETH AI Center, I greatly enjoy collaborating across disciplines — from neuroscience and psychology to hardware, education, and computer vision — together with both academic and industry partners.
-
-        My research interest is to 
-        - develop new data science methods on multimodal data
-        - build Machine Learning models inspired by the brain
-        - contribute to human-computer-interfaces.
+      text: 
+        At the ETH AI Center, I greatly enjoy collaborating across disciplines — from neuroscience and psychology to hardware, education, and computer vision — together with both academic and industry partners. My research interest is to (1) develop new data science methods on multimodal data, (2) build Machine Learning models inspired by the brain, and (3) contribute to human-computer-interfaces.
       filters:
         folders:
           - projects

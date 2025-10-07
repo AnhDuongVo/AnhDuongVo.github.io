@@ -47,37 +47,6 @@ profiles:
  # - icon: academicons/orcid
  #   url: https://orcid.org/0000-0002-1825-0097
 
-affiliations:
-  - name: ETH Zurich
-    url: https://ethz.ch
-    logo: /media/logos/eth.png
-  - name: ETH AI Center
-    url: https://ai.ethz.ch
-    logo: /media/logos/aicenter.png
-  - name: Computer Vision Lab
-    url: https://vision.ee.ethz.ch/
-    logo: /media/logos/cvl.png
-  - name: Institute of Neuroinformatics
-    url: https://www.ini.uzh.ch/
-    logo: /media/logos/ini.png
-
-bio_after:
-  html: |-
-    <div class="affiliations-side">
-      <a href="https://ethz.ch" target="_blank" rel="noopener" aria-label="ETH Zurich">
-        <img src="/media/logos/eth.png" alt="ETH Zurich">
-      </a>
-      <a href="https://ai.ethz.ch" target="_blank" rel="noopener" aria-label="ETH AI Center">
-        <img src="/media/logos/aicenter.png" alt="ETH AI Center">
-      </a>
-      <a href="https://vision.ee.ethz.ch/" target="_blank" rel="noopener" aria-label="Computer Vision Lab ETH Zurich">
-        <img src="/media/logos/cvl.png" alt="Computer Vision Lab ETH Zurich">
-      </a>
-      <a href="https://www.ini.uzh.ch/" target="_blank" rel="noopener" aria-label="Institute of Neuroinformatics ETH Zurich & UZH">
-        <img src="/media/logos/ini.png" alt="Institute of Neuroinformatics ETH Zurich & UZH">
-      </a>
-    </div>
-
 interests:
   - Software Engineering
   - Human-Computer-Interaction
@@ -228,3 +197,6 @@ I have over 7 years of experience developing scalable AI models, human-computer 
 
 I am currently exploring industry opportunities starting in 2026 to apply AI research toward impactful, real-world solutions. If you’d like to chat or explore collaboration, feel free to reach out via email or LinkedIn — I’d love to connect!
 
+<div class="affiliations">
+  <img src="/media/logoslogos.png" alt="ETH Zurich">
+</div>

@@ -83,6 +83,13 @@ education:
       Minored in Mathematics. 
 
 work:
+  - position: Data Science Intern
+    company_name: Johnson & Johnson (Innovative Medicine)
+    company_url: 'https://www.jnj.com/innovativemedicine/'
+    date_start: 2025-10-01
+    # remove date_end (ongoing)
+    summary: |
+      Applying GenAI, NLP, and Computer Vision on health data.
   - position: PhD Researcher in Machine Learning and Computer Science
     company_name: ETH AI Center
     company_url: 'https://ai.ethz.ch'

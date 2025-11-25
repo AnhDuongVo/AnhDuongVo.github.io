@@ -212,6 +212,8 @@ Hi, I’m Duong, a PhD student at the ETH AI Center in Zurich, working at the in
 
 I have over 7 years of experience developing scalable AI models, human-computer interaction systems, and data science pipelines across modalities such as images, videos, audio, text, and neural data — supported by 10+ years of programming experience.
 
+At the moment, I work as a research intern on LLM agents at Johnson & Johnson Innovative Medicine.
+
 I am currently exploring industry opportunities starting in 2026 to apply AI research toward impactful, real-world solutions. If you’d like to chat or explore collaboration, feel free to reach out via email or LinkedIn — I’d love to connect!
 
 <div class="affiliations">

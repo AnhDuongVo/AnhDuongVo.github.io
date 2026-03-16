@@ -89,7 +89,7 @@ work:
     date_start: 2025-10-01
     # remove date_end (ongoing)
     summary: |
-      Applying GenAI, NLP, and Computer Vision on health data.
+      Applied generative AI, NLP, and computer vision techniques to large-scale biomedical data. Designed LLM-based agent systems and retrieval-augmented generation (RAG) pipelines for clinical and research data, and developed evaluation frameworks combining automated metrics and expert feedback to assess model reliability and performance.
   - position: PhD Researcher in Machine Learning and Computer Science
     company_name: ETH AI Center
     company_url: 'https://ai.ethz.ch'

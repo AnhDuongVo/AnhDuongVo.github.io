@@ -208,13 +208,14 @@ awards:
 
 ---
 
-Hi, I’m Duong, a PhD student at the ETH AI Center in Zurich, working at the intersection of Machine Learning, and Neural Networks under the supervision of Prof. Dr. Benjamin Grewe and Prof. Dr. Luc Van Gool.
+Hi, I’m Duong, a PhD researcher at the ETH AI Center in Zurich, working at the intersection of machine learning, neural data analysis, and human–computer interaction under the supervision of Luc Van Gool and Benjamin Grewe.
 
-I have over 7 years of experience developing scalable AI models, human-computer interaction systems, and data science pipelines across modalities such as images, videos, audio, text, and neural data — supported by 10+ years of programming experience.
+I have over 7 years of experience developing scalable AI models, data science pipelines, and machine learning systems across multimodal datasets including images, video, audio, text, and neural data, supported by 10+ years of programming experience.
 
-At the moment, I work as a research intern on LLM agents at Johnson & Johnson Innovative Medicine.
+Currently, I am a research intern at Johnson & Johnson Innovative Medicine, where I work on LLM-based agents, retrieval-augmented generation (RAG), and evaluation frameworks for large language models, focusing on reliability, grounding, and performance on large biomedical datasets.
 
-I am currently exploring industry opportunities starting in 2026 to apply AI research toward impactful, real-world solutions. If you’d like to chat or explore collaboration, feel free to reach out via email or LinkedIn — I’d love to connect!
+I am exploring industry opportunities starting in July 2026 where I can apply AI research and large-scale data analysis to real-world problems. If you’d like to connect, collaborate, or discuss opportunities, feel free to reach out via email or LinkedIn.
+
 
 <div class="affiliations">
   <img src="/media/logos/logos.png" alt="ETH Zurich">

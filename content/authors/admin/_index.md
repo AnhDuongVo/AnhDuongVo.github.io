@@ -83,7 +83,7 @@ education:
       Minored in Mathematics. 
 
 work:
-  - position: PhD Research Intern
+  - position: PhD Research Intern in LLM agents
     company_name: Johnson & Johnson (Innovative Medicine)
     company_url: 'https://www.jnj.com/innovativemedicine/'
     date_start: 2025-10-01

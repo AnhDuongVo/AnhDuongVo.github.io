@@ -83,10 +83,11 @@ education:
       Minored in Mathematics. 
 
 work:
-  - position: Data Science Intern
+  - position: PhD Research Intern
     company_name: Johnson & Johnson (Innovative Medicine)
     company_url: 'https://www.jnj.com/innovativemedicine/'
     date_start: 2025-10-01
+    date_end: 2026-02-01
     # remove date_end (ongoing)
     summary: |
       Applied generative AI, NLP, and computer vision techniques to large-scale biomedical data. Designed LLM-based agent systems and retrieval-augmented generation (RAG) pipelines for clinical and research data, and developed evaluation frameworks combining automated metrics and expert feedback to assess model reliability and performance.

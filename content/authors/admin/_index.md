@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Phd Student
+role: AI/ML Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -68,7 +68,7 @@ education:
   - area: PhD Computer Science (AI Focus)
     institution: ETH AI Center (ETH Zurich)
     date_start: 2021-10-01
-    # no date_end for ongoing
+    date_end: 2026-06-01
     summary: |
       Supervisors: Luc Van Gool, Benjamin Grewe; affiliated to Computer Vision Lab and Institute of Neuroinformatics
   - area: BS and MS Computer Science
@@ -91,11 +91,11 @@ work:
     # remove date_end (ongoing)
     summary: |
       Applied generative AI, NLP, and computer vision techniques to large-scale biomedical data. Designed LLM-based agent systems and retrieval-augmented generation (RAG) pipelines for clinical and research data, and developed evaluation frameworks combining automated metrics and expert feedback to assess model reliability and performance.
-  - position: PhD Researcher in Machine Learning and Computer Science
-    company_name: ETH AI Center
+  - position: AI/ML Researcher in Machine Learning and Computer Science
+    company_name: ETH AI Center / Institute of Neuroinformatics
     company_url: 'https://ai.ethz.ch'
     date_start: 2021-10-01
-    # remove date_end (ongoing)
+    date_end: 2026-06-01
     summary: |
       Developed deep learning models for regression and classification problems with multi-modal data, tackling challenges of limited data availability through self-supervised learning. Engineered scalable ML pipelines, reducing computation time from 30 days to 1 day (30x improvement). Technologies used: Python, Git, Cuda, GPU/CPU, Matlab, Hugging Face, Docker, Diffusion and Generative Models, NLP, Dimensionality Reduction (PCA), Computer Vision.
   - position: Research Assistant in Neural Networks and ML
@@ -209,7 +209,7 @@ awards:
 
 ---
 
-Hi, I’m Duong, a PhD researcher at the ETH AI Center in Zurich, working at the intersection of machine learning, neural data analysis, and human–computer interaction under the supervision of Luc Van Gool and Benjamin Grewe.
+Hi, I’m Duong, an AI/ML researcher at the ETH AI Center / Institute of Neuroinformatics in Zurich, working at the intersection of machine learning, neural data analysis, and human–computer interaction. I completed my PhD in June 2026 under the supervision of Luc Van Gool and Benjamin Grewe.
 
 I have over 7 years of experience developing scalable AI models, data science pipelines, and machine learning systems across multimodal datasets including images, video, audio, text, and neural data, supported by 10+ years of programming experience.
 

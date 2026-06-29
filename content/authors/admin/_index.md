@@ -213,9 +213,9 @@ Hi, I’m Duong, an AI/ML researcher at the ETH AI Center / Institute of Neuroin
 
 I have over 7 years of experience developing scalable AI models, data science pipelines, and machine learning systems across multimodal datasets including images, video, audio, text, and neural data, supported by 10+ years of programming experience.
 
-Currently, I am a research intern at Johnson & Johnson Innovative Medicine, where I work on LLM-based agents, retrieval-augmented generation (RAG), and evaluation frameworks for large language models, focusing on reliability, grounding, and performance on large biomedical datasets.
+This year, I was a research intern at Johnson & Johnson Innovative Medicine, where I worked on LLM-based agents, retrieval-augmented generation (RAG), and evaluation frameworks for large language models, focusing on reliability, grounding, and performance on large biomedical datasets.
 
-I am exploring industry opportunities starting in July 2026 where I can apply AI research and large-scale data analysis to real-world problems. If you’d like to connect, collaborate, or discuss opportunities, feel free to reach out via email or LinkedIn.
+Currently, I am exploring industry opportunities where I can apply AI research and large-scale data analysis to real-world problems. If you’d like to connect, collaborate, or discuss opportunities, feel free to reach out via email or LinkedIn.
 
 
 <div class="affiliations">

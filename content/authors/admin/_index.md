@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: AI/ML Researcher
+role: Machine Learning Researcher · Agentic AI & LLM Systems
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -58,11 +58,11 @@ profiles:
  #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Software Engineering
-  - Human-Computer-Interaction
-  - Large Language Models
-  - Computer Vision
-  - Multi-modal data
+  - Agentic AI & LLM Agents
+  - Retrieval-Augmented Generation (RAG)
+  - LLM Evaluation & Guardrails
+  - Healthcare & Biomedical AI
+  - Multimodal Machine Learning
   
 education:
   - area: PhD Computer Science (AI Focus)
@@ -83,6 +83,13 @@ education:
       Minored in Mathematics. 
 
 work:
+  - position: Postdoctoral Researcher (Machine Learning)
+    company_name: ETH AI Center / Institute of Neuroinformatics
+    company_url: 'https://ai.ethz.ch'
+    date_start: 2026-06-01
+    # ongoing (no date_end)
+    summary: |
+      Research on agentic AI for healthcare: LLM agents, retrieval-augmented generation, and the evaluation and guardrails that make clinical and biomedical workflows trustworthy. Building and sharing open, end-to-end examples on the open NVIDIA stack.
   - position: PhD Research Intern in LLM agents
     company_name: Johnson & Johnson (Innovative Medicine)
     company_url: 'https://www.jnj.com/innovativemedicine/'
@@ -127,6 +134,20 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
+  - name: Agentic AI & LLMs
+    items:
+      - name: LLM agents & orchestration
+        description: 'LLM agents, tool use, multi-agent workflows, NeMo Agent Toolkit, LangGraph'
+        icon: cpu-chip
+      - name: RAG & grounding
+        description: 'Retrieval-augmented generation, structured JSON-constrained output, citation and grounding'
+        icon: magnifying-glass
+      - name: Evaluation & safety
+        description: 'LLM evaluation frameworks, guardrails, PII/PHI handling, human-in-the-loop review'
+        icon: shield-check
+      - name: NVIDIA stack
+        description: 'NIM, Nemotron, NeMo Agent Toolkit, NeMo Guardrails, Riva/Parakeet, BioNeMo, Dynamo'
+        icon: rocket-launch
   - name: Technical Skills
     items:
       - name: Programming
@@ -209,14 +230,14 @@ awards:
 
 ---
 
-Hi, I’m Duong, an AI/ML researcher at the ETH AI Center / Institute of Neuroinformatics in Zurich, working at the intersection of machine learning, neural data analysis, and human–computer interaction. I completed my PhD in June 2026 under the supervision of Luc Van Gool and Benjamin Grewe.
 
-I have over 7 years of experience developing scalable AI models, data science pipelines, and machine learning systems across multimodal datasets including images, video, audio, text, and neural data, supported by 10+ years of programming experience.
+Hi, I'm Duong, currently a postdoctoral researcher at the ETH AI Center and the Institute of Neuroinformatics (INI) in Zurich. I build agentic AI: LLM-based agents, retrieval-augmented generation, and the evaluation and guardrails that make these systems trustworthy enough for high-stakes domains such as healthcare. I completed my PhD in June 2026 under the supervision of Luc Van Gool and Benjamin Grewe.
 
-This year, I was a research intern at Johnson & Johnson Innovative Medicine, where I worked on LLM-based agents, retrieval-augmented generation (RAG), and evaluation frameworks for large language models, focusing on reliability, grounding, and performance on large biomedical datasets.
+This year I was a research intern at Johnson & Johnson Innovative Medicine, where I designed LLM agent systems and RAG pipelines for clinical and research data, together with evaluation frameworks that combine automated metrics and expert feedback to measure reliability and grounding. Across more than 7 years in AI I have shipped scalable models and data pipelines over multimodal data (images, video, audio, text, and neural recordings), including one pipeline I took from 30 days to 1 day (a 30x speed-up).
 
-Currently, I am exploring industry opportunities where I can apply AI research and large-scale data analysis to real-world problems. If you’d like to connect, collaborate, or discuss opportunities, feel free to reach out via email or LinkedIn.
+I also build and share open, end-to-end examples of clinical agentic AI on the open NVIDIA stack (NeMo Agent Toolkit, NIM, Nemotron, NeMo Guardrails, BioNeMo), so that teams can run them on their own infrastructure; the code is open on [GitHub](https://github.com/AnhDuongVo). One design principle runs through all of them: a fluent wrong answer is the real risk, so the model cites its evidence, code checks every number, and a human signs off.
 
+I am looking for industry roles where I can bring agentic AI and large-scale data analysis to real-world problems, and help a developer community build with it. If you would like to connect, collaborate, or discuss opportunities, feel free to reach out by email or on LinkedIn.
 
 <div class="affiliations">
   <img src="/media/logos/logos.png" alt="ETH Zurich">

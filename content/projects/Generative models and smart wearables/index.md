@@ -1,4 +1,5 @@
 ---
+draft: true
 title: LLMs, Generative models and smart wearables
 ---
 ## Predicting eye movement with EEG/EOG data

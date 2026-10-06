@@ -16,8 +16,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Anh Duong Vo is a machine learning researcher at the ETH AI Center building agentic AI: LLM agents, RAG, and evaluation and guardrails for high-stakes domains such as healthcare.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -42,7 +42,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Anh Duong Vo. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

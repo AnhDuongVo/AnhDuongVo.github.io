@@ -88,8 +88,6 @@ work:
     company_url: 'https://ai.ethz.ch'
     date_start: 2026-06-01
     # ongoing (no date_end)
-    summary: |
-      Research on agentic AI for healthcare: LLM agents, retrieval-augmented generation, and the evaluation and guardrails that make clinical and biomedical workflows trustworthy. Building and sharing open, end-to-end examples on the open NVIDIA stack.
   - position: PhD Research Intern in LLM agents
     company_name: Johnson & Johnson (Innovative Medicine)
     company_url: 'https://www.jnj.com/innovativemedicine/'
@@ -231,11 +229,11 @@ awards:
 ---
 
 
-Hi, I'm Duong, currently a postdoctoral researcher at the ETH AI Center and the Institute of Neuroinformatics (INI) in Zurich. I build agentic AI: LLM-based agents, retrieval-augmented generation, and the evaluation and guardrails that make these systems trustworthy enough for high-stakes domains such as healthcare. I completed my PhD in June 2026 under the supervision of Luc Van Gool and Benjamin Grewe.
+Hi, I'm Duong, a postdoctoral researcher at the ETH AI Center and the Institute of Neuroinformatics (INI) in Zurich. I completed my PhD in June 2026 under the supervision of Luc Van Gool (Computer Vision Lab) and Benjamin Grewe.
 
-This year I was a research intern at Johnson & Johnson Innovative Medicine, where I designed LLM agent systems and RAG pipelines for clinical and research data, together with evaluation frameworks that combine automated metrics and expert feedback to measure reliability and grounding. Across more than 7 years in AI I have shipped scalable models and data pipelines over multimodal data (images, video, audio, text, and neural recordings), including one pipeline I took from 30 days to 1 day (a 30x speed-up).
+My focus is agentic AI: LLM-based agents, retrieval-augmented generation, and the evaluation and guardrails that make these systems trustworthy in high-stakes domains such as healthcare. I build and share open, end-to-end examples of clinical agentic AI on the open NVIDIA stack (NeMo Agent Toolkit, NIM, Nemotron, NeMo Guardrails, BioNeMo); the code is on [GitHub](https://github.com/AnhDuongVo).
 
-I also build and share open, end-to-end examples of clinical agentic AI on the open NVIDIA stack (NeMo Agent Toolkit, NIM, Nemotron, NeMo Guardrails, BioNeMo), so that teams can run them on their own infrastructure; the code is open on [GitHub](https://github.com/AnhDuongVo). One design principle runs through all of them: a fluent wrong answer is the real risk, so the model cites its evidence, code checks every number, and a human signs off.
+This year I was a research intern at Johnson & Johnson Innovative Medicine, where I designed LLM agent systems and evaluation frameworks that combine automated metrics with expert feedback to measure reliability and grounding. Across more than 7 years in AI I have shipped scalable models and data pipelines over multimodal data (images, video, audio, text, and neural recordings).
 
 I am looking for industry roles where I can bring agentic AI and large-scale data analysis to real-world problems, and help a developer community build with it. If you would like to connect, collaborate, or discuss opportunities, feel free to reach out by email or on LinkedIn.
 

@@ -25,7 +25,7 @@ sections:
     id: projects
     content:
       title: 'Research & Projects'
-      text: 
+      text: |-
         I build agentic AI and work across disciplines, from clinical and biomedical teams to neuroscience, hardware, and computer vision, with both academic and industry partners. My focus: (1) LLM agents and evaluation for high-stakes domains such as healthcare, (2) machine learning methods for multimodal data, and (3) open, reproducible tools that other developers can build on.
       filters:
         folders:

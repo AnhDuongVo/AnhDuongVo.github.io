@@ -1,6 +1,6 @@
 ---
 title: Agentic AI tooling and evaluation
-summary: "Open developer tools for agentic AI, beyond any single vendor: an MCP server for BioNeMo, a cross-framework evaluation harness, and a RAG service with citation verification."
+summary: "Developer tools for agentic AI that are not tied to one vendor: an MCP server for BioNeMo, a two-level agent evaluation harness, and a RAG service with citation verification."
 date: 2026-10-01
 weight: 9
 tags:
@@ -11,18 +11,32 @@ tags:
   - Developer Tools
 ---
 
-Open tools that make agentic AI easier to build, trust and evaluate. These are framework and vendor neutral, which is the point: the hard parts of agentic AI (discovery, evaluation, grounding) are the same whatever model you run.
+Three tools around the clinical agents, written so that they work with any model or framework. Each has a short terminal recording; everything in the recordings runs offline without an API key.
 
-## Tools
+## 1. mcp-bionemo: BioNeMo models as MCP tools
 
-**mcp-bionemo.** A Model Context Protocol server that exposes NVIDIA BioNeMo NIMs (RFdiffusion, ProteinMPNN, Boltz-2) as typed tools, so any MCP client can call them. BioNeMo ships as agent skills and raw endpoints but not as MCP, so this closes a real gap. Runs on a simulator by default, one flag switches to the live NIMs. [github.com/AnhDuongVo/mcp-bionemo](https://github.com/AnhDuongVo/mcp-bionemo)
+BioNeMo's biology models are available as NeMo Agent Toolkit agent skills and as HTTP endpoints, but not as a Model Context Protocol server, so MCP clients such as Claude Desktop, Cursor or an IDE agent cannot discover or call them directly. This server wraps the RFdiffusion, ProteinMPNN and Boltz-2 endpoints in typed MCP tools (`design_backbone`, `design_sequences`, `fold_complex`, and a one-call `design_binder`). It runs on a deterministic simulator by default and switches to the real NIMs with one environment variable, including the asynchronous job polling the hosted biology NIMs use.
 
-**clinical-agent-eval.** A reusable harness that scores clinical agent outputs on grounding, number accuracy, hallucinated-citation rate and calibration, and renders a leaderboard. [github.com/AnhDuongVo/clinical-agent-eval](https://github.com/AnhDuongVo/clinical-agent-eval)
+The recording (21 s) runs the tool tests against the simulator and shows the client configuration that registers the server.
 
-**[agenteval](https://github.com/AnhDuongVo/agenteval) (framework-agnostic).** The same evaluation ideas generalized across agent frameworks (LangGraph, LlamaIndex, OpenAI tool-calling), so one harness scores traces from any of them.
+{{< video src="mcp-bionemo.mp4" controls="yes" >}}
 
-**[rag-guidelines](https://github.com/AnhDuongVo/rag-guidelines).** Retrieval-augmented generation over public clinical guidelines and drug labels, with every answer verified against its cited source, on a neutral open stack.
+## 2. agenteval: agent evaluation at two levels
 
-## Live demo
+Level 1 scores how an agent behaves, from traces. Adapters normalise LangGraph, LlamaIndex and OpenAI tool-calling traces into one schema, and the metrics cover tool success, tool selection, grounding of citations in retrieved context, task success, mean steps, and repeated tool calls. Level 2 scores what the agent says: grounding rate, hallucinated-citation rate, number accuracy with rounding tolerance, and calibration (ECE and Brier), with a per-task leaderboard. The clinical agents emit the level 2 schema, so one harness scores all of them.
 
-An interactive app (offline, no key needed) that runs the verification logic of the clinical agents: [github.com/AnhDuongVo/clinical-agentic-ai-demo](https://github.com/AnhDuongVo/clinical-agentic-ai-demo)
+The recording (22 s) runs both levels on the bundled samples; the claims leaderboard picks up a planted wrong number and a planted citation that does not exist.
+
+{{< video src="agenteval.mp4" controls="yes" >}}
+
+## 3. rag-guidelines: retrieval with citation verification
+
+Retrieves the relevant passages from a corpus of clinical guidelines and drug labels, answers only from those passages with a citation on every sentence, and then checks each sentence against the chunk it cites: enough overlap in content words, and every number present in the source. Sentences that fail are flagged. It uses any OpenAI-compatible endpoint (vLLM, Ollama, TGI, hosted APIs) and has an offline extractive mode that needs no key. The bundled corpus is synthetic.
+
+The recording (21 s) answers two questions and shows the retrieved sources with their scores and the per-sentence check.
+
+{{< video src="rag-guidelines.mp4" controls="yes" >}}
+
+## Code
+
+[mcp-bionemo](https://github.com/AnhDuongVo/mcp-bionemo) · [agenteval](https://github.com/AnhDuongVo/agenteval) · [rag-guidelines](https://github.com/AnhDuongVo/rag-guidelines) · [clinical-agentic-ai-demo](https://github.com/AnhDuongVo/clinical-agentic-ai-demo)

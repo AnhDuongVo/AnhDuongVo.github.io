@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Anh Duong Vo 
+title: Anh Duong (Maria) Vo
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -229,13 +229,13 @@ awards:
 ---
 
 
-Hi, I'm Duong, a postdoctoral researcher at the ETH AI Center and the Institute of Neuroinformatics (INI) in Zurich. I completed my PhD in June 2026 under the supervision of Luc Van Gool (Computer Vision Lab) and Benjamin Grewe.
+Hi, I'm Maria (Anh Duong Vo), a postdoctoral researcher at the ETH AI Center and the Institute of Neuroinformatics (INI) in Zurich. I completed my PhD in June 2026 under the supervision of Luc Van Gool (Computer Vision Lab) and Benjamin Grewe.
 
-My focus is agentic AI: LLM-based agents, retrieval-augmented generation, and the evaluation and guardrails that make these systems trustworthy in high-stakes domains such as healthcare. I build and share open, end-to-end examples of clinical agentic AI on the open NVIDIA stack (NeMo Agent Toolkit, NIM, Nemotron, NeMo Guardrails, BioNeMo); the code is on [GitHub](https://github.com/AnhDuongVo).
+I work on agentic AI: LLM-based agents, retrieval-augmented generation, and the evaluation and guardrails needed to use them in healthcare. My recent projects are end-to-end clinical agents built with the NVIDIA NeMo stack (NeMo Agent Toolkit, NIM, Guardrails, BioNeMo), alongside vendor-neutral tooling for agent evaluation and citation-verified retrieval. The code is on [GitHub](https://github.com/AnhDuongVo).
 
 This year I was a research intern at Johnson & Johnson Innovative Medicine, where I designed LLM agent systems and evaluation frameworks that combine automated metrics with expert feedback to measure reliability and grounding. Across more than 7 years in AI I have shipped scalable models and data pipelines over multimodal data (images, video, audio, text, and neural recordings).
 
-I am looking for industry roles where I can bring agentic AI and large-scale data analysis to real-world problems, and help a developer community build with it. If you would like to connect, collaborate, or discuss opportunities, feel free to reach out by email or on LinkedIn.
+I am looking for industry roles in agentic AI and applied machine learning, including roles that work closely with the developers who use these systems. If you would like to connect, collaborate, or discuss opportunities, feel free to reach out by email or on LinkedIn.
 
 <div class="affiliations">
   <img src="/media/logos/logos.png" alt="ETH Zurich">

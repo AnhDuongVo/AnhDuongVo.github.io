@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block body %}
+<section class="container hero">
+  <h1>{{ story.statement }}</h1>
+  <div class="actions">
+    <a class="btn" href="{{ site.cta_primary.href }}">{{ site.cta_primary.label }} <svg viewBox="0 0 12 12" fill="currentColor"><path d="M3 1l6 5-6 5z"/></svg></a>
+    <a class="btn light" href="{{ site.linkedin }}">LinkedIn</a>
+  </div>
+</section>
+
+<div class="two">
+  <div>
+    <p class="kicker">How I got here</p>
+    <div class="prose">{{ story.how_i_got_here_html }}</div>
+  </div>
+  <div class="portrait"><img src="{{ root }}assets/img/portrait.png" alt="Portrait of Maria (Anh Duong Vo)"></div>
+</div>
+
+<div class="two">
+  <div>
+    <ul class="xp">
+      {% for x in story.experience %}
+      <li>
+        <span class="badge">{{ x.badge }}</span>
+        <div><div class="role">{{ x.role }}</div><div class="org">at {% if x.url %}<a href="{{ x.url }}">{{ x.org }}</a>{% else %}{{ x.org }}{% endif %}</div></div>
+        <div class="dates">{{ x.start }} - {{ x.end }}</div>
+        {% if x.text %}<p class="text">{{ x.text }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <p class="kicker">Where I stand</p>
+    <div class="prose">{{ story.where_i_stand_html }}</div>
+    <div class="actions" style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap">
+      <a class="btn" href="{{ site.github }}">GitHub</a>
+      <a class="btn light" href="{{ site.linkedin }}">LinkedIn</a>
+    </div>
+    <p class="kicker" style="margin-top:40px">Education</p>
+    <ul class="pubs">
+      {% for e in story.education %}
+      <li><div class="t">{{ e.degree }}</div><div class="m">{{ e.org }} · {{ e.years }}</div><div class="v">{{ e.text }}</div></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="two">
+  <div>
+    <p class="kicker">Publications and conferences</p>
+    <ul class="pubs">
+      {% for p in story.publications %}
+      <li>
+        <div class="t">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+        <div class="m">{{ p.authors }}</div>
+        <div class="v">{{ p.venue }}, {{ p.year }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div>
+    <p class="kicker">Skills</p>
+    {% for g in story.skills %}
+    <div class="group"><h4>{{ g.group }}</h4><div class="tags">{% for t in g["items"] %}<span class="tag">{{ t }}</span>{% endfor %}</div></div>
+    {% endfor %}
+    <div class="group"><h4>Languages</h4><div class="tags">{% for l in story.languages %}<span class="tag">{{ l.name }}, {{ l.level }}</span>{% endfor %}</div></div>
+    <div class="group"><h4>Scholarships and grants</h4>
+      <ul class="pubs">{% for a in story.awards %}<li><div class="t">{{ a.title }}</div><div class="m">{{ a.org }} · {{ a.year }}</div></li>{% endfor %}</ul>
+    </div>
+    <div class="group"><h4>Outside work</h4><div class="tags">{% for h in story.hobbies %}<span class="tag">{{ h }}</span>{% endfor %}</div></div>
+  </div>
+</div>
+
+<section class="container section" style="border-top:1px solid var(--grid-strong); margin:0 calc(-1 * var(--frame) - 1px); padding-left: calc(var(--frame) + 32px); padding-right: calc(var(--frame) + 32px)">
+  <p class="kicker">News</p>
+  <table class="events">
+    <thead><tr><th>Date</th><th>Event</th><th class="l">Location</th></tr></thead>
+    <tbody>
+    {% for e in events %}
+      <tr><td class="d">{{ e.date }}</td><td>{{ e.title }}</td><td class="l">{{ e.location }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="container contact" style="border-top:1px solid var(--grid-strong); margin:0 calc(-1 * var(--frame) - 1px); padding-left: calc(var(--frame) + 32px); padding-right: calc(var(--frame) + 32px)">
+  <h2>Open to roles in agentic AI and applied machine learning.</h2>
+  <p>{{ site.email }} · Zurich, Switzerland</p>
+  <div class="actions">
+    <a class="btn" href="{{ site.cta_primary.href }}">Write to me <svg viewBox="0 0 12 12" fill="currentColor"><path d="M3 1l6 5-6 5z"/></svg></a>
+    <a class="btn light" href="{{ site.linkedin }}">Connect on LinkedIn</a>
+  </div>
+</section>
+{% endblock %}

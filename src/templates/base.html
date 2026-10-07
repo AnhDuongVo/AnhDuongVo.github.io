@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ path }}">
+{% if og_image %}<meta property="og:image" content="{{ site.url }}{{ og_image }}">{% endif %}
+<link rel="icon" href="{{ root }}favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ root }}assets/css/site.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="left">
+    <div class="seg">
+      <a href="{{ root }}" class="{{ 'active' if nav == 'work' else '' }}">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="3"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3 3l1.4 1.4M11.6 11.6L13 13M3 13l1.4-1.4M11.6 4.4L13 3"/></svg>
+        Work
+      </a>
+      <a href="{{ root }}story/" class="{{ 'active' if nav == 'story' else '' }}">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M10.5 1.5a6.5 6.5 0 1 0 4 11.7 7 7 0 0 1-4-11.7z"/></svg>
+        Story
+      </a>
+    </div>
+  </div>
+  <a class="brand" href="{{ root }}">{{ site.name }}</a>
+  <div class="right"><a class="btn small" href="{{ site.cta_primary.href }}">Get in touch</a></div>
+</nav>
+<div class="frame">
+{% block body %}{% endblock %}
+<footer class="footer">
+  <span>© {{ year }} {{ site.name }}</span>
+  <span><a href="{{ site.email_href }}">{{ site.email }}</a> · <a href="{{ site.github }}">GitHub</a> · <a href="{{ site.linkedin }}">LinkedIn</a></span>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block body %}
+<section class="container">
+  <div class="project-head">
+    <a class="back" href="{{ root }}">← All work</a>
+    <h1>{{ p.title }}</h1>
+    <p class="summary">{{ p.summary }}</p>
+    <div class="tags">{% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+  </div>
+  <div class="cover"><img src="{{ p.cover }}" alt="{{ p.title }}"></div>
+  <article class="article">{{ p.html }}</article>
+</section>
+{% endblock %}

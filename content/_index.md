@@ -42,7 +42,7 @@ sections:
   - block: markdown
     id: news
     content:
-      title: "Where you can meet me next"
+      title: "News"
       text: |-
         {{< events_table limit="5" seeall="/news/" seeall_text="See all news" >}}
     design:

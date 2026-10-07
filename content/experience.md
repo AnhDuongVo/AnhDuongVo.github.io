@@ -24,6 +24,21 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
+  - block: collection
+    id: publications
+    content:
+      title: Publications and conferences
+      text: |-
+        Journal articles, preprints and conference presentations from my PhD and earlier work.
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+      sort_by: date
+      sort_ascending: false
+    design:
+      view: citation
+      columns: '1'
   - block: resume-awards
     content:
       title: Awards

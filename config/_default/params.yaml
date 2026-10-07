@@ -16,7 +16,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Anh Duong Vo is a machine learning researcher at the ETH AI Center building agentic AI: LLM agents, RAG, and evaluation and guardrails for high-stakes domains such as healthcare.'
+    description: 'Maria (Anh Duong Vo) is a machine learning researcher at the ETH AI Center building agentic AI: LLM agents, RAG, and evaluation and guardrails for high-stakes domains such as healthcare.'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -37,12 +37,12 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Anh Duong Vo'
+      text: 'Maria (Anh Duong Vo)'
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Anh Duong Vo. This work is licensed under {license}'
+    notice: '© {year} Maria (Anh Duong Vo). This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Anh Duong (Maria) Vo
+title: Maria (Anh Duong Vo)
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -95,7 +95,7 @@ work:
     date_end: 2026-02-01
     # remove date_end (ongoing)
     summary: |
-      Applied generative AI, NLP, and computer vision techniques to large-scale biomedical data. Designed LLM-based agent systems and retrieval-augmented generation (RAG) pipelines for clinical and research data, and developed evaluation frameworks combining automated metrics and expert feedback to assess model reliability and performance.
+      Applied generative AI and NLP to large-scale biomedical data. Designed LLM-based agent systems, and developed evaluation frameworks combining automated metrics and expert feedback to assess model reliability and performance.
   - position: AI/ML Researcher in Machine Learning and Computer Science
     company_name: ETH AI Center / Institute of Neuroinformatics
     company_url: 'https://ai.ethz.ch'
@@ -233,7 +233,7 @@ Hi, I'm Maria (Anh Duong Vo), a postdoctoral researcher at the ETH AI Center and
 
 I work on agentic AI: LLM-based agents, retrieval-augmented generation, and the evaluation and guardrails needed to use them in healthcare. My recent projects are end-to-end clinical agents built with the NVIDIA NeMo stack (NeMo Agent Toolkit, NIM, Guardrails, BioNeMo), alongside vendor-neutral tooling for agent evaluation and citation-verified retrieval. The code is on [GitHub](https://github.com/AnhDuongVo).
 
-This year I was a research intern at Johnson & Johnson Innovative Medicine, where I designed LLM agent systems and evaluation frameworks that combine automated metrics with expert feedback to measure reliability and grounding. Across more than 7 years in AI I have shipped scalable models and data pipelines over multimodal data (images, video, audio, text, and neural recordings).
+This year I was a research intern at Johnson & Johnson Innovative Medicine, where I designed LLM agent systems and evaluation frameworks that combine automated metrics with expert feedback to assess model reliability and performance. Across more than 7 years in AI I have shipped scalable models and data pipelines over multimodal data (images, video, audio, text, and neural recordings).
 
 I am looking for industry roles in agentic AI and applied machine learning, including roles that work closely with the developers who use these systems. If you would like to connect, collaborate, or discuss opportunities, feel free to reach out by email or on LinkedIn.
 

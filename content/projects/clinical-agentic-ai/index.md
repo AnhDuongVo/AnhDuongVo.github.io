@@ -1,5 +1,5 @@
 ---
-title: Clinical Agentic AI (open examples)
+title: Clinical agentic AI (four end-to-end agents)
 summary: "Four end-to-end examples of agentic AI for healthcare and the life sciences, built with the NVIDIA NeMo stack."
 date: 2026-09-01
 weight: 10

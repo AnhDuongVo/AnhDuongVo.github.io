@@ -8,6 +8,10 @@
   --line: #e4e4de;
   --card: #ffffff;
   --accent: #111111;
+  --tint: rgba(196, 98, 66, 0.16);
+  --seg-bg: #ededea; --seg-border: #dcdcd6;
+  --tag-bg: #f1f1ed; --tag-border: #e2e2dc;
+  --nav-bg: rgba(252, 252, 250, 0.85);
   --serif: "Newsreader", "Iowan Old Style", "Times New Roman", serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --mono: "SFMono-Regular", Menlo, Consolas, monospace;
@@ -25,9 +29,12 @@ body {
   color: var(--ink);
   background-color: var(--paper);
   background-image:
+    radial-gradient(120% 55% at 50% -12%, var(--tint) 0%, rgba(0,0,0,0) 70%),
     linear-gradient(var(--grid) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid) 1px, transparent 1px);
-  background-size: 24px 24px;
+  background-size: 100% 100%, 24px 24px, 24px 24px;
+  background-attachment: scroll;
+  background-repeat: no-repeat, repeat, repeat;
   -webkit-font-smoothing: antialiased;
 }
 a { color: inherit; text-decoration: none; }
@@ -45,7 +52,7 @@ img, video { max-width: 100%; height: auto; display: block; }
 .frame::before, .frame::after {
   content: "";
   position: absolute; left: -5px; width: 9px; height: 9px;
-  border: 1px solid var(--grid-strong); background: var(--paper);
+  border: 1px solid var(--grid-strong); background: transparent;
 }
 .frame::before { top: -5px; }
 .frame::after { bottom: -5px; }
@@ -56,7 +63,7 @@ img, video { max-width: 100%; height: auto; display: block; }
   height: var(--nav-h);
   display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
   padding: 0 var(--frame);
-  background: rgba(252, 252, 250, 0.85);
+  background: var(--nav-bg);
   backdrop-filter: saturate(140%) blur(10px);
   -webkit-backdrop-filter: saturate(140%) blur(10px);
   border-bottom: 1px solid var(--grid-strong);
@@ -65,7 +72,7 @@ img, video { max-width: 100%; height: auto; display: block; }
 .nav .right { justify-self: end; }
 .seg {
   display: inline-flex; padding: 3px; border-radius: 999px;
-  background: #ededea; border: 1px solid #dcdcd6;
+  background: var(--seg-bg); border: 1px solid var(--seg-border);
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.06);
 }
 .seg a {
@@ -175,7 +182,7 @@ img, video { max-width: 100%; height: auto; display: block; }
 .pubs .v { color: var(--ink-3); font-size: 14px; }
 
 .tags { display: flex; flex-wrap: wrap; gap: 8px; }
-.tag { padding: 6px 12px; border-radius: 999px; font-size: 13px; background: #f1f1ed; border: 1px solid #e2e2dc; color: var(--ink-2); }
+.tag { padding: 6px 12px; border-radius: 999px; font-size: 13px; background: var(--tag-bg); border: 1px solid var(--tag-border); color: var(--ink-2); }
 .group { margin-bottom: 18px; }
 .group h4 { margin: 0 0 8px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-3); font-weight: 600; }
 
@@ -224,3 +231,27 @@ img, video { max-width: 100%; height: auto; display: block; }
   .nav .btn.small { padding: 7px 12px; font-size: 13px; white-space: nowrap; }
   .seg a { padding: 6px 11px; font-size: 13px; }
 }
+
+/* ---------- dark theme (About me) ---------- */
+[data-theme="dark"] {
+  --paper: #0c0c0c;
+  --grid: rgba(255, 255, 255, 0.06);
+  --grid-strong: rgba(255, 255, 255, 0.14);
+  --ink: #f3f3ef;
+  --ink-2: #b9b9b2;
+  --ink-3: #7e7e78;
+  --line: #262626;
+  --card: #151515;
+  --tint: rgba(196, 98, 66, 0.26);
+  --seg-bg: #1d1d1d; --seg-border: #333;
+  --tag-bg: #1b1b1b; --tag-border: #2e2e2e;
+  --nav-bg: rgba(12, 12, 12, 0.82);
+}
+[data-theme="dark"] ::selection { background: #f3f3ef; color: #111; }
+[data-theme="dark"] .seg a { color: #a9a9a3; }
+[data-theme="dark"] .seg a.active { color: #fff; background: linear-gradient(180deg, #4a4a4a, #222); box-shadow: 0 1px 2px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.14); }
+[data-theme="dark"] .btn { background: linear-gradient(180deg, #4a4a4a, #1a1a1a); border-color: #000; box-shadow: 0 1px 2px rgba(0,0,0,0.6), 0 8px 18px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.16); }
+[data-theme="dark"] .btn.light { color: #f3f3ef; background: linear-gradient(180deg, #2a2a2a, #161616); border-color: #3a3a3a; box-shadow: 0 1px 2px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.08); }
+[data-theme="dark"] .badge { background: radial-gradient(circle at 30% 30%, #6a6a6a, #222); color: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.18); }
+[data-theme="dark"] .portrait img { box-shadow: 0 24px 60px rgba(0,0,0,0.6), 0 0 0 6px rgba(255,255,255,0.06); }
+[data-theme="dark"] .article code { background: #1b1b1b; }

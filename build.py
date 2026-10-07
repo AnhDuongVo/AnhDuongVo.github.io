@@ -113,14 +113,14 @@ def main() -> None:
     write(
         OUT / "index.html",
         env.get_template("work.html").render(
-            **common, root="./", path="/", nav="work", title=f"{site['name']} · Work", description=site["description"],
+            **common, root="./", path="/", nav="projects", title=f"{site['name']} · Projects", description=site["description"],
             projects=ordered, og_image=f"/projects/{ordered[0]['slug']}/{ordered[0]['cover']}",
         ),
     )
     write(
-        OUT / "story" / "index.html",
-        env.get_template("story.html").render(
-            **common, root="../", path="/story/", nav="story", title=f"{site['name']} · Story", description=site["description"],
+        OUT / "about" / "index.html",
+        env.get_template("about.html").render(
+            **common, root="../", path="/about/", nav="about", theme="dark", title=f"{site['name']} · About me", description=site["description"],
             story=story, events=load_events(), og_image="/assets/img/portrait.png",
         ),
     )
@@ -133,7 +133,7 @@ def main() -> None:
         write(
             dest / "index.html",
             env.get_template("project.html").render(
-                **common, root="../../", path=f"/projects/{p['slug']}/", nav="work", title=f"{p['title']} · {site['name']}",
+                **common, root="../../", path=f"/projects/{p['slug']}/", nav="projects", title=f"{p['title']} · {site['name']}",
                 description=p["summary"], p=p, og_image=f"/projects/{p['slug']}/{p['cover']}",
             ),
         )

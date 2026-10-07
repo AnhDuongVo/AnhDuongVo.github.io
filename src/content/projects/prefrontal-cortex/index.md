@@ -1,4 +1,5 @@
 ---
+card_cover: card.jpg
 title: Prefrontal cortex and flexible avoidance learning
 summary: My PhD research on how the prefrontal cortex supports adaptive, transferable behavior, combining large-scale neural recordings with machine learning.
 weight: 5

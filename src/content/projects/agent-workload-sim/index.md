@@ -1,4 +1,5 @@
 ---
+card_cover: card.jpg
 title: Agent workload simulation and cost model
 summary: "A discrete-event simulator for LLM agent workloads on a serving cluster: how many concurrent agents the cluster sustains, what fan-out and synchronization cost, and which scheduler wins."
 date: 2026-10-07

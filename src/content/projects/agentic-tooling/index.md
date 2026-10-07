@@ -1,4 +1,5 @@
 ---
+card_cover: card.jpg
 title: Agentic AI tooling and evaluation
 summary: "Developer tools for agentic AI that are not tied to one vendor: an MCP server for BioNeMo, a two-level agent evaluation harness, and a RAG service with citation verification."
 date: 2026-10-01

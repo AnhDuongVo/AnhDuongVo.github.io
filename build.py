@@ -66,6 +66,7 @@ def load_projects() -> list[dict]:
                 "short": front.get("short", d.name),
                 "card_text": front.get("card", front.get("summary", "")),
                 "cover": front.get("cover", "featured.png"),
+                "card_cover": front.get("card_cover", front.get("cover", "featured.png")),
                 "weight": front.get("weight", 0),
                 "html": Markup(render_md(body, d)),
             }

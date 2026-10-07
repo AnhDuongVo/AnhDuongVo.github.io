@@ -13,7 +13,7 @@
     {% for p in projects %}
     <a class="card" href="{{ root }}projects/{{ p.slug }}/">
       <div class="media">
-        <img src="{{ root }}projects/{{ p.slug }}/{{ p.cover }}" alt="{{ p.title }}" loading="{{ 'eager' if loop.first else 'lazy' }}">
+        <img src="{{ root }}projects/{{ p.slug }}/{{ p.card_cover }}" alt="{{ p.title }}" loading="{{ 'eager' if loop.first else 'lazy' }}">
         <div class="chips">
           <span class="chip name">{{ p.short }}</span>
           {% for t in p.tags[:2] %}<span class="chip">{{ t }}</span>{% endfor %}

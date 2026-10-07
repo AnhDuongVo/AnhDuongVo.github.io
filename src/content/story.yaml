@@ -1,14 +1,14 @@
-statement: "I work on real-world problems in healthcare and the life sciences, and use AI, mostly LLM agents, to solve them and to evaluate whether the solutions can be trusted."
+statement: "I apply AI to real-world problems in healthcare and the life sciences: LLM agents, their evaluation, and the tooling to run them."
 
-how_i_got_here: |
-  I studied computer science in Frankfurt with a minor in mathematics and an exchange semester in Rome on robotics and AI, and moved to Zurich in 2021 for a PhD at the ETH AI Center. The thesis was in neuroscience: how the prefrontal cortex supports flexible, adaptive behaviour, studied with large-scale neural recordings and machine learning. I defended it in June 2026 and stayed on as a postdoctoral researcher at the ETH AI Center and the Institute of Neuroinformatics.
+bio: |
+  Hi, I'm Maria (Anh Duong Vo), a postdoctoral researcher at the ETH AI Center and the Institute of Neuroinformatics (INI) in Zurich. I completed my PhD in June 2026 under the supervision of Luc Van Gool (Computer Vision Lab) and Benjamin Grewe.
 
-  Alongside the research I kept building things. During a research internship at Johnson & Johnson Innovative Medicine I designed LLM-based agent systems and the evaluation frameworks that let scientists trust them. In my own time I built a set of clinical agents on the NVIDIA NeMo stack, the evaluation harness and retrieval service around them, and a simulator for what agents cost to serve. All of it is on GitHub with recorded demos.
+  I work on agentic AI: LLM-based agents, retrieval-augmented generation, and the evaluation and guardrails needed to use them in healthcare. My recent projects are end-to-end clinical agents built with the NVIDIA NeMo stack (NeMo Agent Toolkit, NIM, Guardrails, BioNeMo), alongside vendor-neutral tooling for agent evaluation and citation-verified retrieval, and a simulator for agent workloads on serving clusters. The code is on [GitHub](https://github.com/AnhDuongVo).
+
+  This year I was a research intern at Johnson & Johnson Innovative Medicine, where I designed LLM agent systems and evaluation frameworks that combine automated metrics with expert feedback to assess model reliability and performance. Across more than 8 years in AI I have shipped scalable models and data pipelines over multimodal data (images, video, audio, text, and neural recordings).
 
 where_i_stand: |
-  Across more than eight years in AI I have shipped models and data pipelines over images, video, audio, text and neural recordings, led collaborations with IBM Research and startups, taught at ETH, and founded a Python programme with Microsoft and Google for adults with disabilities.
-
-  I am looking for industry roles in agentic AI and applied machine learning, including roles that work closely with the developers who use these systems. If you would like to connect, collaborate or discuss an opportunity, write to me.
+  I am looking for industry roles in agentic AI and applied machine learning, including roles that work closely with the developers who use these systems. If you would like to connect, collaborate, or discuss opportunities, feel free to reach out by email or on LinkedIn.
 
 experience:
   - role: Postdoctoral Researcher (Machine Learning)

@@ -95,7 +95,7 @@ def main() -> None:
     site = load_yaml("site.yaml")
     site["email_href"] = "mailto:" + site["email"]
     story = load_yaml("story.yaml")
-    story["how_i_got_here_html"] = Markup(render_md(story["how_i_got_here"]))
+    story["bio_html"] = Markup(render_md(story["bio"]))
     story["where_i_stand_html"] = Markup(render_md(story["where_i_stand"]))
     projects = {p["slug"]: p for p in load_projects()}
     ordered = [projects[s] for s in site["projects"]]

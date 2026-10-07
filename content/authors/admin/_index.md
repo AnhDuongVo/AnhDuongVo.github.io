@@ -231,7 +231,7 @@ awards:
 
 Hi, I'm Maria (Anh Duong Vo), a postdoctoral researcher at the ETH AI Center and the Institute of Neuroinformatics (INI) in Zurich. I completed my PhD in June 2026 under the supervision of Luc Van Gool (Computer Vision Lab) and Benjamin Grewe.
 
-I work on agentic AI: LLM-based agents, retrieval-augmented generation, and the evaluation and guardrails needed to use them in healthcare. My recent projects are end-to-end clinical agents built with the NVIDIA NeMo stack (NeMo Agent Toolkit, NIM, Guardrails, BioNeMo), alongside vendor-neutral tooling for agent evaluation and citation-verified retrieval. The code is on [GitHub](https://github.com/AnhDuongVo).
+I work on agentic AI: LLM-based agents, retrieval-augmented generation, and the evaluation and guardrails needed to use them in healthcare. My recent projects are end-to-end clinical agents built with the NVIDIA NeMo stack (NeMo Agent Toolkit, NIM, Guardrails, BioNeMo), alongside vendor-neutral tooling for agent evaluation and citation-verified retrieval, and a simulator for agent workloads on serving clusters. The code is on [GitHub](https://github.com/AnhDuongVo).
 
 This year I was a research intern at Johnson & Johnson Innovative Medicine, where I designed LLM agent systems and evaluation frameworks that combine automated metrics with expert feedback to assess model reliability and performance. Across more than 7 years in AI I have shipped scalable models and data pipelines over multimodal data (images, video, audio, text, and neural recordings).
 

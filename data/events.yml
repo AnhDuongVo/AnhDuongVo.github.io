@@ -57,3 +57,15 @@
   location: "Zurich, Switzerland"
   start: "2026-06-25"
   end:   "2026-06-25"
+
+- title: "Started as Postdoctoral Researcher (Machine Learning) at the ETH AI Center and the Institute of Neuroinformatics"
+  url: "https://ai.ethz.ch"
+  location: "Zurich, Switzerland"
+  start: "2026-06-01"
+  end:   "2026-06-01"
+
+- title: "Research internship in LLM agents at Johnson & Johnson Innovative Medicine"
+  url: "https://www.jnj.com/innovativemedicine/"
+  location: ""
+  start: "2025-10-01"
+  end:   "2026-02-01"

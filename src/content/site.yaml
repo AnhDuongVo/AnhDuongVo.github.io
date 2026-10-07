@@ -1,17 +1,17 @@
 name: Maria (Anh Duong Vo)
 short_name: Maria
 url: https://anhduongvo.github.io
-email: anhduong.vo@ai.ethz.ch
+email: anhduongvo.m@gmail.com
 github: https://github.com/AnhDuongVo
 linkedin: https://www.linkedin.com/in/anh-duong-vo/
-description: "Maria (Anh Duong Vo) is a machine learning researcher at the ETH AI Center building agentic AI for healthcare: LLM agents, evaluation and guardrails, and the tooling to run them."
+description: "Maria (Anh Duong Vo) is a machine learning researcher at the ETH AI Center working on real-world problems in healthcare and the life sciences with AI: LLM agents, evaluation, and the tooling to run them."
 
 # Work page
-headline: "Hi, I'm Maria. I build agentic AI for healthcare, and the tooling to evaluate and run it."
-tagline: "Machine learning researcher at the ETH AI Center and INI · PhD, ETH Zurich 2026 · 7+ years in AI across research and industry"
+headline: "Hi, I'm Maria. I work on real-world problems in healthcare and the life sciences, and use AI to solve them and to check that the solutions hold up."
+tagline: "Machine learning researcher at the ETH AI Center and INI · PhD, ETH Zurich 2026 · 8+ years in AI across research and industry"
 cta_primary:
   label: Get in touch
-  href: mailto:anhduong.vo@ai.ethz.ch
+  href: mailto:anhduongvo.m@gmail.com
 cta_secondary:
   label: GitHub
   href: https://github.com/AnhDuongVo

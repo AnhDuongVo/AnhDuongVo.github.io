@@ -1,4 +1,4 @@
-statement: "I work on agentic AI: LLM agents, the evaluation and guardrails that make them usable in healthcare, and the tooling to run them."
+statement: "I work on real-world problems in healthcare and the life sciences, and use AI, mostly LLM agents, to solve them and to evaluate whether the solutions can be trusted."
 
 how_i_got_here: |
   I studied computer science in Frankfurt with a minor in mathematics and an exchange semester in Rome on robotics and AI, and moved to Zurich in 2021 for a PhD at the ETH AI Center. The thesis was in neuroscience: how the prefrontal cortex supports flexible, adaptive behaviour, studied with large-scale neural recordings and machine learning. I defended it in June 2026 and stayed on as a postdoctoral researcher at the ETH AI Center and the Institute of Neuroinformatics.
@@ -6,7 +6,7 @@ how_i_got_here: |
   Alongside the research I kept building things. During a research internship at Johnson & Johnson Innovative Medicine I designed LLM-based agent systems and the evaluation frameworks that let scientists trust them. In my own time I built a set of clinical agents on the NVIDIA NeMo stack, the evaluation harness and retrieval service around them, and a simulator for what agents cost to serve. All of it is on GitHub with recorded demos.
 
 where_i_stand: |
-  Across more than seven years in AI I have shipped models and data pipelines over images, video, audio, text and neural recordings, led collaborations with IBM Research and startups, taught at ETH, and founded a Python programme with Microsoft and Google for adults with disabilities.
+  Across more than eight years in AI I have shipped models and data pipelines over images, video, audio, text and neural recordings, led collaborations with IBM Research and startups, taught at ETH, and founded a Python programme with Microsoft and Google for adults with disabilities.
 
   I am looking for industry roles in agentic AI and applied machine learning, including roles that work closely with the developers who use these systems. If you would like to connect, collaborate or discuss an opportunity, write to me.
 

@@ -22,7 +22,7 @@ All four follow the same pattern: the model drafts, code checks the numbers and 
 
 Turns a consultation transcript into a structured SOAP note. Each sentence of the note cites the transcript lines it came from, numbers such as doses and vitals are compared against those lines in code, and a clinician accepts or rejects each sentence before the note is exported as a FHIR document. Speech recognition uses Riva/Parakeet with boosting for drug names, and the pipeline runs in batch mode, live during the consultation, and as a served endpoint.
 
-The video (36 s) shows two consultations. For each, the note is generated with its numbers verified, then an error is planted (250 mg instead of 25 mg; 25 units instead of 2.5 units) and the check flags the sentence against the transcript line.
+The video (38 s) shows two consultations. For each, the note is generated with its numbers verified, then an error is planted (250 mg instead of 25 mg; 25 units instead of 2.5 units) and the check flags the sentence against the transcript line.
 
 {{< video src="consult-to-note.mp4" controls="yes" >}}
 
@@ -30,7 +30,7 @@ The video (36 s) shows two consultations. For each, the note is generated with i
 
 Checks a patient's FHIR record against the eligibility criteria of a ClinicalTrials.gov study. Each criterion gets a status (met, not met, or unknown) together with the FHIR resources it rests on and a confidence value. Age, sex and lab thresholds are evaluated in code; criteria that need reading are passed to the model; a lab value that is missing or older than a year is reported as unknown. A study coordinator reviews the result before the patient is contacted.
 
-The video (33 s) shows two patients. For the first, the eGFR criterion is unknown until a value is added, and lowering HbA1c flips that criterion to not met. For the second, two criteria start as not met and are resolved by editing the record.
+The video (38 s) shows two patients. For the first, the eGFR criterion is unknown until a value is added, and lowering HbA1c flips that criterion to not met. For the second, two criteria start as not met and are resolved by editing the record.
 
 {{< video src="trial-matcher.mp4" controls="yes" >}}
 
@@ -38,7 +38,7 @@ The video (33 s) shows two patients. For the first, the eGFR criterion is unknow
 
 Checks a draft clinical study report against the ICH E3 section structure, drafts missing sections from the source tables with a row citation on every sentence, and reviews the text: every number is compared in code against the row it cites, and qualitative claims such as "well tolerated" are checked against the data by the model. A medical writer accepts or rejects each finding.
 
-The video (29 s) shows two sections. In the efficacy section a placebo-arm change of -1.4 is flagged against the table's -0.35 and verified once corrected; in the safety section a discontinuation count of 3 is flagged against the table's 2.
+The video (32 s) shows two sections. In the efficacy section a placebo-arm change of -1.4 is flagged against the table's -0.35 and verified once corrected; in the safety section a discontinuation count of 3 is flagged against the table's 2.
 
 {{< video src="csr-assistant.mp4" controls="yes" >}}
 
@@ -46,7 +46,7 @@ The video (29 s) shows two sections. In the efficacy section a placebo-arm chang
 
 For a target protein, the agent writes a literature brief that cites only retrieved abstracts, then chains three BioNeMo models: RFdiffusion designs backbones for the epitope, ProteinMPNN designs sequences for each backbone, and Boltz-2 co-folds each binder with the target and scores the complex. Candidates are ranked by a composite score into a report that states its method and limits. The project runs on a deterministic simulator by default; one flag switches each step to the real BioNeMo NIMs.
 
-The video (25 s) changes the target, the random seed and the number of candidates and shows the ranking update. The scores come from the simulator and are placeholders.
+The video (29 s) changes the target, the random seed and the number of candidates and shows the ranking update. The scores come from the simulator and are placeholders.
 
 {{< video src="ai-scientist.mp4" controls="yes" >}}
 

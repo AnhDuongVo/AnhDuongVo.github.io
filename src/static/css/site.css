@@ -258,3 +258,15 @@ img, video { max-width: 100%; height: auto; display: block; }
 [data-theme="dark"] .badge { background: radial-gradient(circle at 30% 30%, #6a6a6a, #222); color: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.18); }
 [data-theme="dark"] .portrait img { box-shadow: 0 24px 60px rgba(0,0,0,0.6), 0 0 0 6px rgba(255,255,255,0.06); }
 [data-theme="dark"] .article code { background: #1b1b1b; }
+
+/* ---------- tables and code in project pages ---------- */
+.article table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 8px 0 24px; font-size: 15px; line-height: 1.5; background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.article th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-3); font-weight: 600; padding: 12px 14px; background: var(--tag-bg); border-bottom: 1px solid var(--line); }
+.article td { padding: 11px 14px; vertical-align: top; border-bottom: 1px solid var(--line); }
+.article tr:last-child td { border-bottom: 0; }
+.article td:first-child { font-weight: 500; white-space: nowrap; }
+@media (max-width: 720px) { .article table { display: block; overflow-x: auto; } .article td:first-child { white-space: normal; } }
+.article pre { background: #16181c; color: #e8e6e1; border-radius: 12px; padding: 16px 18px; overflow-x: auto; margin: 8px 0 24px; font-size: 13.5px; line-height: 1.6; box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+.article pre code { background: none; padding: 0; color: inherit; font-size: inherit; }
+.article p + ol, .article p + ul { margin-top: -6px; }
+.article li { margin-bottom: 4px; }

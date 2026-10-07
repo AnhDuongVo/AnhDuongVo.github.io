@@ -8,12 +8,19 @@
   </div>
 </section>
 <div class="rule"><p>{{ site.tagline }}</p></div>
+<div class="two">
+  <div>
+    <p class="kicker">My work</p>
+    <div class="prose">{{ story.bio_html }}</div>
+  </div>
+  <div class="portrait"><img src="{{ root }}assets/img/portrait.png" alt="Portrait of Maria (Anh Duong Vo)"></div>
+</div>
 <section class="container">
   <div class="cards">
     {% for p in projects %}
     <a class="card" href="{{ root }}projects/{{ p.slug }}/">
       <div class="media">
-        <img src="{{ root }}projects/{{ p.slug }}/{{ p.card_cover }}" alt="{{ p.title }}" loading="{{ 'eager' if loop.first else 'lazy' }}">
+        <img src="{{ root }}projects/{{ p.slug }}/{{ p.card_cover }}" alt="{{ p.title }}" loading="eager" decoding="async">
         <div class="chips">
           <span class="chip name">{{ p.short }}</span>
           {% for t in p.tags[:2] %}<span class="chip">{{ t }}</span>{% endfor %}

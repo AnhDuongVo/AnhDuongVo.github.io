@@ -115,7 +115,7 @@ def main() -> None:
         OUT / "index.html",
         env.get_template("work.html").render(
             **common, root="./", path="/", nav="projects", title=f"{site['name']} · Projects", description=site["description"],
-            projects=ordered, og_image=f"/projects/{ordered[0]['slug']}/{ordered[0]['cover']}",
+            projects=ordered, story=story, og_image=f"/projects/{ordered[0]['slug']}/{ordered[0]['cover']}",
         ),
     )
     write(

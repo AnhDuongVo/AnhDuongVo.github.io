@@ -8,8 +8,8 @@
   --line: #e4e4de;
   --card: #ffffff;
   --accent: #111111;
-  --tint: rgba(196, 98, 66, 0.34);
-  --tint-2: rgba(226, 160, 120, 0.22);
+  --tint: rgba(196, 98, 66, 0.55);
+  --tint-2: rgba(226, 160, 120, 0.34);
   --seg-bg: #ededea; --seg-border: #dcdcd6;
   --tag-bg: #f1f1ed; --tag-border: #e2e2dc;
   --nav-bg: rgba(252, 252, 250, 0.85);
@@ -30,7 +30,7 @@ body {
   color: var(--ink);
   background-color: var(--paper);
   background-image:
-    radial-gradient(90% 60% at 50% -10%, var(--tint) 0%, rgba(0,0,0,0) 72%),
+    radial-gradient(95% 70% at 50% -10%, var(--tint) 0%, rgba(0,0,0,0) 75%),
     radial-gradient(60% 40% at 12% 8%, var(--tint-2) 0%, rgba(0,0,0,0) 70%),
     linear-gradient(var(--grid) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid) 1px, transparent 1px);
@@ -156,6 +156,7 @@ img, video { max-width: 100%; height: auto; display: block; }
 
 /* ---------- story ---------- */
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px solid var(--grid-strong); margin: 0 calc(-1 * var(--frame) - 1px); }
+.rule + .two { border-top: 0; }
 .two > div { padding: 40px calc(var(--frame) + 32px); }
 .two > div + div { border-left: 1px solid var(--grid-strong); }
 @media (max-width: 860px) { .two { grid-template-columns: 1fr; } .two > div + div { border-left: 0; border-top: 1px solid var(--grid-strong); } .two > div { padding: 32px calc(var(--frame) + 16px); } }
@@ -243,8 +244,8 @@ img, video { max-width: 100%; height: auto; display: block; }
   --ink-3: #7e7e78;
   --line: #262626;
   --card: #151515;
-  --tint: rgba(196, 98, 66, 0.42);
-  --tint-2: rgba(226, 140, 100, 0.18);
+  --tint: rgba(196, 98, 66, 0.62);
+  --tint-2: rgba(226, 140, 100, 0.28);
   --seg-bg: #1d1d1d; --seg-border: #333;
   --tag-bg: #1b1b1b; --tag-border: #2e2e2e;
   --nav-bg: rgba(12, 12, 12, 0.82);

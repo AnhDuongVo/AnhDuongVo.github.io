@@ -52,20 +52,15 @@
   start: "2025-10-02"
   end:   "2025-10-02"
 
-- title: "PhD defense: Prefrontal cortex and flexible avoidance learning (ETH Zurich)"
+- title: "Defended my PhD at ETH Zurich (Prefrontal cortex and flexible avoidance learning) and started as Postdoctoral Researcher (Machine Learning) at the ETH AI Center and the Institute of Neuroinformatics"
   url: ""
   location: "Zurich, Switzerland"
   start: "2026-06-25"
   end:   "2026-06-25"
 
-- title: "Started as Postdoctoral Researcher (Machine Learning) at the ETH AI Center and the Institute of Neuroinformatics"
-  url: "https://ai.ethz.ch"
-  location: "Zurich, Switzerland"
-  start: "2026-06-01"
-  end:   "2026-06-01"
 
 - title: "Research internship in LLM agents at Johnson & Johnson Innovative Medicine"
-  url: "https://www.jnj.com/innovativemedicine/"
+  url: ""
   location: ""
   start: "2025-10-01"
   end:   "2026-02-01"

@@ -110,7 +110,9 @@ def main() -> None:
     shutil.copy(SRC / "static" / "favicon.svg", OUT / "favicon.svg")
     (OUT / ".nojekyll").write_text("")
 
-    common = {"site": site, "year": year}
+    import hashlib
+    css_v = hashlib.md5((SRC / "static" / "css" / "site.css").read_bytes()).hexdigest()[:8]
+    common = {"site": site, "year": year, "css_v": css_v}
     write(
         OUT / "index.html",
         env.get_template("work.html").render(

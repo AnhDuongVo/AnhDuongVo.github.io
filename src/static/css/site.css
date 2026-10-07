@@ -260,11 +260,15 @@ img, video { max-width: 100%; height: auto; display: block; }
 [data-theme="dark"] .article code { background: #1b1b1b; }
 
 /* ---------- tables and code in project pages ---------- */
-.article table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 8px 0 24px; font-size: 15px; line-height: 1.5; background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
-.article th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-3); font-weight: 600; padding: 12px 14px; background: var(--tag-bg); border-bottom: 1px solid var(--line); }
-.article td { padding: 11px 14px; vertical-align: top; border-bottom: 1px solid var(--line); }
-.article tr:last-child td { border-bottom: 0; }
-.article td:first-child { font-weight: 500; white-space: nowrap; }
+.article table { width: 100%; border-collapse: collapse; margin: 10px 0 26px; font-size: 15px; line-height: 1.5; background: var(--card); border: 1px solid #cfcfc8; table-layout: auto; }
+.article th, .article td { border: 1px solid #d9d9d2; padding: 10px 14px; text-align: left; vertical-align: top; }
+.article th { font-size: 13px; font-weight: 600; letter-spacing: 0.02em; color: var(--ink); background: #f0efea; }
+.article tbody tr:nth-child(even) td { background: #fafaf7; }
+.article td:first-child { font-weight: 600; white-space: nowrap; }
+[data-theme="dark"] .article table { border-color: #333; }
+[data-theme="dark"] .article th, [data-theme="dark"] .article td { border-color: #2e2e2e; }
+[data-theme="dark"] .article th { background: #1b1b1b; }
+[data-theme="dark"] .article tbody tr:nth-child(even) td { background: #141414; }
 @media (max-width: 720px) { .article table { display: block; overflow-x: auto; } .article td:first-child { white-space: normal; } }
 .article pre { background: #16181c; color: #e8e6e1; border-radius: 12px; padding: 16px 18px; overflow-x: auto; margin: 8px 0 24px; font-size: 13.5px; line-height: 1.6; box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
 .article pre code { background: none; padding: 0; color: inherit; font-size: inherit; }

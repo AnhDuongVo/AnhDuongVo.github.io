@@ -1,0 +1,65 @@
+{
+  "consult-to-note": {
+    "file": "src/content/projects/clinical-agentic-ai/consult-to-note.mp4",
+    "sha256": "14f01371b9d9498efd5d314a0a7ae51470a6599107b9b5a6ca9622215b3c6932",
+    "seconds": 24,
+    "frames": 4,
+    "format": "edited walkthrough; actual captured UI or recorded command output; silent"
+  },
+  "trial-matcher": {
+    "file": "src/content/projects/clinical-agentic-ai/trial-matcher.mp4",
+    "sha256": "1a94d6048fba1eb1afeee589d8900625ad04e442d1917eebd196a916bcd1d04a",
+    "seconds": 24,
+    "frames": 4,
+    "format": "edited walkthrough; actual captured UI or recorded command output; silent"
+  },
+  "csr-assistant": {
+    "file": "src/content/projects/clinical-agentic-ai/csr-assistant.mp4",
+    "sha256": "5c453874e59e517c08ad17ace4c5decd0446d610dbfcc27758a6f06f29e3742d",
+    "seconds": 24,
+    "frames": 4,
+    "format": "edited walkthrough; actual captured UI or recorded command output; silent"
+  },
+  "ai-scientist": {
+    "file": "src/content/projects/clinical-agentic-ai/ai-scientist.mp4",
+    "sha256": "49a30216cd72074d8944004c91f855badb0323f1693663270a2378235e70ff51",
+    "seconds": 24,
+    "frames": 4,
+    "format": "edited walkthrough; actual captured UI or recorded command output; silent"
+  },
+  "mcp-bionemo": {
+    "file": "src/content/projects/agentic-tooling/mcp-bionemo.mp4",
+    "sha256": "311628b72a6588e8bc80518d6509e0a027777a23ec6e863db77a7bb7251cec00",
+    "seconds": 24,
+    "frames": 3,
+    "format": "edited walkthrough; actual captured UI or recorded command output; silent"
+  },
+  "agenteval": {
+    "file": "src/content/projects/agentic-tooling/agenteval.mp4",
+    "sha256": "3971d95955cce26ae0238f28079ae72efeec645b222877722008022b0043b754",
+    "seconds": 32,
+    "frames": 4,
+    "format": "edited walkthrough; actual captured UI or recorded command output; silent"
+  },
+  "rag-guidelines": {
+    "file": "src/content/projects/agentic-tooling/rag-guidelines.mp4",
+    "sha256": "ed4480a91b275e08b2eb99d9e2a1acd4b0a8ac73d980c5da63656240d6a89be9",
+    "seconds": 24,
+    "frames": 3,
+    "format": "edited walkthrough; actual captured UI or recorded command output; silent"
+  },
+  "agentsim": {
+    "file": "src/content/projects/agent-workload-sim/agentsim.mp4",
+    "sha256": "6858656d9f28e48833c158077be507cfa7563badf5ae02ab5fbb9049cb3374c3",
+    "seconds": 24,
+    "frames": 3,
+    "format": "edited walkthrough; actual captured UI or recorded command output; silent"
+  },
+  "interview": {
+    "file": "consult-to-note-agenteval-interview.mp4",
+    "sha256": "526ea6b94a65d5fe2f3cf6dacb7831ce8f620b6aad538149646f58f13ec799ce",
+    "seconds": 84,
+    "frames": 7,
+    "format": "edited walkthrough; actual captured UI or recorded command output; silent"
+  }
+}

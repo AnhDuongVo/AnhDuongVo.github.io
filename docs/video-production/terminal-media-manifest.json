@@ -1,0 +1,37 @@
+{
+  "mcp-bionemo": {
+    "command": "python examples/client_walkthrough.py",
+    "repo": "mcp-bionemo",
+    "site_path": "/Users/aicenter/Desktop/desktop/website/AnhDuongVo.github.io/src/content/projects/agentic-tooling/mcp-bionemo.png",
+    "repository_image": "/Users/aicenter/Library/CloudStorage/Dropbox/claude application/code nvidia/github-repos/mcp-bionemo/docs/mcp-bionemo.png",
+    "sha256": "4d9b71c1a3f7d4fd31ef27b782b33cd60b7696006fb6a66b0bf5c14d2919a20b"
+  },
+  "agenteval-behavior": {
+    "command": "agenteval behavior data/sample_traces.jsonl",
+    "repo": "agenteval",
+    "site_path": "/Users/aicenter/Desktop/desktop/website/AnhDuongVo.github.io/src/content/projects/agentic-tooling/agenteval-behavior.png",
+    "repository_image": "/Users/aicenter/Library/CloudStorage/Dropbox/claude application/code nvidia/github-repos/agenteval/docs/agenteval-behavior.png",
+    "sha256": "e573e5085d4e6dad2e5db48f1e5fd184d6a1a68f260f50e7f50aa71b7cd2e74f"
+  },
+  "agenteval-claims": {
+    "command": "agenteval claims data/clinical_samples",
+    "repo": "agenteval",
+    "site_path": "/Users/aicenter/Desktop/desktop/website/AnhDuongVo.github.io/src/content/projects/agentic-tooling/agenteval-claims.png",
+    "repository_image": "/Users/aicenter/Library/CloudStorage/Dropbox/claude application/code nvidia/github-repos/agenteval/docs/agenteval-claims.png",
+    "sha256": "9adf7f6c0470c5abb76b6d94ed0c21084b269ec018005ee8d7bfaf6fa62b3c64"
+  },
+  "rag-guidelines": {
+    "command": "rag ask \"What is the HbA1c target?\"",
+    "repo": "rag-guidelines",
+    "site_path": "/Users/aicenter/Desktop/desktop/website/AnhDuongVo.github.io/src/content/projects/agentic-tooling/rag-guidelines.png",
+    "repository_image": "/Users/aicenter/Library/CloudStorage/Dropbox/claude application/code nvidia/github-repos/rag-guidelines/docs/rag-guidelines.png",
+    "sha256": "2c12eff749451da9a63117af2f9303bdcddc1eb2852a58efb9bd3bc34d832fdf"
+  },
+  "agentsim": {
+    "command": "agentsim sweep --profile chat:0.5,react:0.3,fanout:0.2 --runs 100 \\\n  --gpus 2 --agents 4,16,64 --policy fifo,srpt,progress --out sweep.csv",
+    "repo": "agentsim/Untitled",
+    "site_path": "/Users/aicenter/Desktop/desktop/website/AnhDuongVo.github.io/src/content/projects/agent-workload-sim/agentsim.png",
+    "repository_image": "/Users/aicenter/Library/CloudStorage/Dropbox/claude application/code nvidia/github-repos/agentsim/Untitled/docs/agentsim.png",
+    "sha256": "785145188c77df3c170fa20d44e724c6b3fda4cc5ed41fa073eccadca353d582"
+  }
+}

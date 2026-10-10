@@ -28,6 +28,8 @@ The recordings below come from [clinical-agentic-ai-demo](https://github.com/Anh
 
 {{< video src="consult-to-note.mp4" controls="yes" >}}
 
+**Demo scope:** One selected scalar per sentence is compared with bundled source values. Other numbers, narrative claims and the full note-generation pipeline are not checked here.
+
 **Try it offline:** clone [consult-to-note](https://github.com/AnhDuongVo/consult-to-note), install `pip install -e ".[dev]"`, then run `pytest -q`. Tests use synthetic fixtures and model stubs. `c2n demo --no-trials` generates text using a configured model endpoint and requires its credentials; it is a separate live path.
 
 The repository includes batch, streaming and FHIR export paths, plus an ACI-Bench evaluation harness. A NAT invocation returns a preliminary, reviewable draft; clinician approval requires the explicit review workflow. Hosted and self-hosted NVIDIA runs need separate validation.
@@ -37,6 +39,8 @@ The repository includes batch, streaming and FHIR export paths, plus an ACI-Benc
 **Engineering decision:** preserve missing or unsupported evidence as “unknown.” Parsed age, sex and simple laboratory thresholds use deterministic rules. Labs require compatible units and usable dates. A criterion-specific measurement window takes precedence over the documented demo fallback. Unsupported compound thresholds and quantitative criteria require review rather than model arithmetic.
 
 {{< video src="trial-matcher.mp4" controls="yes" >}}
+
+**Demo scope:** Simplified threshold illustration with synthetic scalar inputs. This does not exercise FHIR parsing, trial retrieval or model assessment.
 
 **Try it offline:** clone [trial-matcher](https://github.com/AnhDuongVo/trial-matcher), install `pip install -e ".[dev]"`, then run `pytest -q`. The synthetic fixtures test extraction, rules and review overrides. `ctm demo` requires a model endpoint.
 
@@ -48,6 +52,8 @@ Criteria parsing and qualitative assessments remain probabilistic. Confidence sc
 
 {{< video src="csr-assistant.mp4" controls="yes" >}}
 
+**Demo scope:** Selected values are compared with synthetic table rows; counts are exact and continuous rounding tolerance is explicit. This is not ICH E3 document review.
+
 **Try it offline:** clone [csr-assistant](https://github.com/AnhDuongVo/csr-assistant), install `pip install -e ".[dev]"`, then run `pytest -q`. The bundled synthetic study includes planted errors and correct claims. `csr demo` requires a model endpoint.
 
 Medical writers must review the revised text and unresolved findings. The repository includes an evaluation harness for error detection and false alarms.
@@ -57,6 +63,8 @@ Medical writers must review the revised text and unresolved findings. The reposi
 **Engineering decision:** orchestrate RFdiffusion, ProteinMPNN and Boltz-2 with traceable candidate reports. Sequence design is restricted to the generated binder chain and checks sequence length. Stable simulation seeds make offline results reproducible across Python processes.
 
 {{< video src="ai-scientist.mp4" controls="yes" >}}
+
+**Demo scope:** Simulated scores with the protein-only ranking formula. No RFdiffusion, ProteinMPNN or Boltz-2 inference is performed.
 
 **Try it offline:** clone [ai-scientist](https://github.com/AnhDuongVo/ai-scientist), install `pip install -e ".[dev]"`, then run `sci demo` and `pytest -q`.
 

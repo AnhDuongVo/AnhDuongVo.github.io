@@ -1,11 +1,14 @@
 {% extends "base.html" %}
 {% block body %}
-<section class="container hero">
+<section class="container hero about-intro">
+  <div>
   <h1>{{ story.statement }}</h1>
   <div class="actions">
     <a class="btn" href="{{ site.cta_primary.href }}">{{ site.cta_primary.label }} <svg viewBox="0 0 12 12" fill="currentColor"><path d="M3 1l6 5-6 5z"/></svg></a>
     <a class="btn light" href="{{ site.linkedin }}">LinkedIn</a>
   </div>
+  </div>
+  <figure class="about-portrait"><img src="/assets/img/about-mountains.png" alt="Looking across an Alpine lake toward the mountains" width="1086" height="1448"></figure>
 </section>
 
 <div class="two">

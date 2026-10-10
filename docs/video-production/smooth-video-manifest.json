@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-10",
+  "capture": "Fresh Chrome MediaRecorder footage of the actual running Streamlit illustration. Real clicks, input edits and scrolling; idle gaps shortened. Cursor is a visualization of captured interaction positions, interpolated before each recorded click, with a brief click ring. No added text or end cards.",
+  "clips": [
+    {
+      "project": "consult-to-note",
+      "seconds": 16.333,
+      "source_seconds": 23.380799999952316,
+      "fps": 30,
+      "clicks": 2,
+      "idle_cuts": [
+        [
+          5.990199951171874,
+          8.7655
+        ],
+        [
+          11.1655,
+          13.287599853515625
+        ],
+        [
+          15.6915,
+          18.632099853515623
+        ]
+      ],
+      "click_timeline": [
+        {
+          "t": 2.85,
+          "x": 256,
+          "y": 201,
+          "target": "Plant an error: write 250 mg instead of the 25 mg in the transcript"
+        },
+        {
+          "t": 10.052,
+          "x": 256,
+          "y": 111,
+          "target": "Plant an error: write 250 mg instead of the 25 mg in the transcript"
+        }
+      ],
+      "sha256": "99e773043346faa85785cd4fc3deb4962f2e76809defb14874c209214841133c"
+    },
+    {
+      "project": "trial-matcher",
+      "seconds": 15.433,
+      "source_seconds": 42.76160000002384,
+      "fps": 30,
+      "clicks": 3,
+      "idle_cuts": [
+        [
+          12.346300048828125,
+          23.56
+        ],
+        [
+          26.1965,
+          33.22239990234375
+        ],
+        [
+          36.6925,
+          41.582599853515624
+        ]
+      ],
+      "click_timeline": [
+        {
+          "t": 2.955,
+          "x": 1003,
+          "y": 251,
+          "target": "eGFR on record"
+        },
+        {
+          "t": 6.556,
+          "x": 762,
+          "y": 297,
+          "target": "HbA1c (%)"
+        },
+        {
+          "t": 10.511,
+          "x": 1136,
+          "y": 354,
+          "target": "eGFR"
+        }
+      ],
+      "sha256": "aefa6456c44fb14dc14fc8597b3fca59f10d8624c80aea2fc27caeeecb17da7b"
+    },
+    {
+      "project": "csr-assistant",
+      "seconds": 13.233,
+      "source_seconds": 33.13139999997616,
+      "fps": 30,
+      "clicks": 3,
+      "idle_cuts": [
+        [
+          10.3345,
+          16.14589990234375
+        ],
+        [
+          18.64889990234375,
+          23.518300048828124
+        ]
+      ],
+      "click_timeline": [
+        {
+          "t": 2.941,
+          "x": 762,
+          "y": 241,
+          "target": "Placebo-arm change as written in the draft"
+        },
+        {
+          "t": 6.795,
+          "x": 781,
+          "y": 473,
+          "target": "Section"
+        },
+        {
+          "t": 10.485,
+          "x": 762,
+          "y": 241,
+          "target": "Discontinuations as written in the draft"
+        }
+      ],
+      "sha256": "1e31533630c279eb2c27de4123635d74adea7da61d51e534145e99041ba755fe"
+    },
+    {
+      "project": "ai-scientist",
+      "seconds": 14.933,
+      "source_seconds": 34.49890000009537,
+      "fps": 30,
+      "clicks": 3,
+      "idle_cuts": [
+        [
+          9.718599853515625,
+          15.089699951171873
+        ],
+        [
+          17.499099853515627,
+          23.904699951171875
+        ]
+      ],
+      "click_timeline": [
+        {
+          "t": 3.009,
+          "x": 1172,
+          "y": 370,
+          "target": "Seed"
+        },
+        {
+          "t": 6.628,
+          "x": 960,
+          "y": 370,
+          "target": "Candidates"
+        },
+        {
+          "t": 10.242,
+          "x": 499,
+          "y": 370,
+          "target": "Target protein"
+        }
+      ],
+      "sha256": "8e2a412481872f1b662407c58c72ece14e0c1aebe55a62017e1739f7146fc94a"
+    }
+  ]
+}

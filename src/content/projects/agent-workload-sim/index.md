@@ -19,9 +19,11 @@ Agent workloads involve repeated model calls, tool use, parallel branches and sy
 
 [agentsim](https://github.com/AnhDuongVo/agentsim) is a discrete-event simulator that models these workflows across configurable serving replicas. It explores how concurrency, batching, caching and scheduling policies affect latency, throughput and estimated costs.
 
-## Watch and reproduce
+## Inspect and reproduce
 
-{{< video src="agentsim.mp4" controls="yes" >}}
+![agentsim CLI input and output](agentsim.png)
+
+**Example scope:** A modeled workload sweep over a simulated serving cluster. These are modeled latencies and capacity estimates, not hardware measurements.
 
 ```bash
 pip install -e ".[dev]"

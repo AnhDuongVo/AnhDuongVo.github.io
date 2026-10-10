@@ -274,3 +274,16 @@ img, video { max-width: 100%; height: auto; display: block; }
 .article pre code { background: none; padding: 0; color: inherit; font-size: inherit; }
 .article p + ol, .article p + ul { margin-top: -6px; }
 .article li { margin-bottom: 4px; }
+
+
+/* The complete card is interactive; tint the pencil artwork on hover and keyboard focus. */
+.card .media {isolation:isolate;}
+.card .media::after {content:"";position:absolute;inset:0;background:#c46242;mix-blend-mode:color;opacity:0;transition:opacity .2s;pointer-events:none;}
+.card:hover .media::after, .card:focus-visible .media::after {opacity:1;}
+.card:hover, .card:focus-visible {border-color:#c46242;cursor:pointer;}
+.card:focus-visible {outline:3px solid #c46242;outline-offset:4px;}
+.about-intro {display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,1fr);gap:48px;align-items:center;}
+.about-portrait {margin:0;justify-self:center;max-width:330px;}
+.about-portrait img {display:block;width:100%;height:auto;border-radius:20px;border:1px solid var(--grid-strong);}
+@media(max-width:760px) {.about-intro {grid-template-columns:1fr;gap:28px;}.about-portrait {max-width:300px;}}
+@media(prefers-reduced-motion:reduce) {.card,.card .media::after {transition:none;}}

@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-10",
+  "capture": "Chrome MediaRecorder of the running Streamlit software; iframe region crop; real UI interactions; no added text, audio or end cards. Cursor rendered in the capture view from actual mouse/click/wheel events because Chrome tab capture excludes the system cursor.",
+  "clips": [
+    {
+      "project": "consult-to-note",
+      "seconds": 26.3,
+      "fps": 30,
+      "mp4_sha256": "b050b3a497db537654121b80656673b76f153e03aaca9792c7111cb59e7d42c1",
+      "poster_sha256": "9d303f9a360417e2d3003e1dc9a61335de1c21aa1ba21bdc14091852347c97a3",
+      "gif_sha256": "d1d2a44c0c0604ae556161755882ebe1babe5b74ba0e7fda5cbc742d5e52aa3c",
+      "raw_sha256": "e40486aa6b74ed94412e5211cddda2906f1c831221317cb9e03dc22ac6b1294e",
+      "capture": {
+        "cropped": true,
+        "settings": {
+          "aspectRatio": 1.6909547738693467,
+          "cursor": "motion",
+          "deviceId": "web-contents-media-stream://3627:20",
+          "displaySurface": "browser",
+          "frameRate": 30,
+          "height": 1592,
+          "logicalSurface": true,
+          "resizeMode": "crop-and-scale",
+          "screenPixelRatio": 2.5,
+          "width": 2692
+        },
+        "duration": 27.485799999952317
+      }
+    },
+    {
+      "project": "trial-matcher",
+      "seconds": 45.233,
+      "fps": 30,
+      "mp4_sha256": "44daad0dca131d0261f22cf0213323083165be9f2c3e10cab4b89ca0309c9cf9",
+      "poster_sha256": "db5e9efe29e85e05e4d2960045777b98b597b34178aa3510bca45716b2314f15",
+      "gif_sha256": "806005f9211458043540d931be066ab23dfc4bf8d78f3c6ac8646e3334a2d492",
+      "raw_sha256": "30c8ee36a60e969c296c100775dec930b7f32bc7eb0ed3a2ccc581a0d64e565d",
+      "capture": {
+        "cropped": true,
+        "settings": {
+          "aspectRatio": 1.6909547738693467,
+          "cursor": "motion",
+          "deviceId": "web-contents-media-stream://3627:20",
+          "displaySurface": "browser",
+          "frameRate": 30,
+          "height": 1592,
+          "logicalSurface": true,
+          "resizeMode": "crop-and-scale",
+          "screenPixelRatio": 2.5,
+          "width": 2692
+        },
+        "duration": 47.07259999990463
+      }
+    },
+    {
+      "project": "csr-assistant",
+      "seconds": 32.533,
+      "fps": 30,
+      "mp4_sha256": "8544da4c69165439111ef0fd9cd0d684b670cb554c026e4552640e24c365f54e",
+      "poster_sha256": "eeb611821d2ca03f8dc441037388506f7bc2b9a31baf038f1732f0ea52e0d639",
+      "gif_sha256": "f5fc497c011ccaa91ef19576ee5d8a2fc237794340bb44a09a4cb2d5d87904d7",
+      "raw_sha256": "58bb6dbeb7357e08f094c5d0047590d8d1db228a2f2fca9c856608eabe0dba0a",
+      "capture": {
+        "cropped": true,
+        "settings": {
+          "aspectRatio": 1.6909547738693467,
+          "cursor": "motion",
+          "deviceId": "web-contents-media-stream://3627:20",
+          "displaySurface": "browser",
+          "frameRate": 30,
+          "height": 1592,
+          "logicalSurface": true,
+          "resizeMode": "crop-and-scale",
+          "screenPixelRatio": 2.5,
+          "width": 2692
+        },
+        "duration": 33.74860000002384
+      }
+    },
+    {
+      "project": "ai-scientist",
+      "seconds": 29.433,
+      "fps": 30,
+      "mp4_sha256": "d52b0c5a3b596b6558e3bd8d850c02c0d7a81e1ecd4923c28e697185e5e67dd0",
+      "poster_sha256": "ab75d80ff0f6d92fe018e20812ede08cb251565d1dbb987be078de894a0c60f7",
+      "gif_sha256": "c58fc05dee3bd02f49d3ac13686d4c295d54a3128184f0c7d4663a7caf68514d",
+      "raw_sha256": "ee878b98b891c2e9498cb140cf4592628f4cfeb8fa949a889e705764d7c5ccab",
+      "capture": {
+        "cropped": true,
+        "settings": {
+          "aspectRatio": 1.6921269095182139,
+          "cursor": "motion",
+          "deviceId": "web-contents-media-stream://3627:20",
+          "displaySurface": "browser",
+          "frameRate": 30,
+          "height": 1702,
+          "logicalSurface": true,
+          "resizeMode": "crop-and-scale",
+          "screenPixelRatio": 3,
+          "width": 2880
+        },
+        "duration": 30.694200000047683
+      }
+    }
+  ],
+  "validation": {
+    "browser": "All four loaded at 1600\u00d7946 with no media errors; first video verified playing past 10 seconds.",
+    "decode": "All four MP4s decoded successfully with ffmpeg.",
+    "demo_tests": "7 passed, including editable CSR sentence regression.",
+    "site_build": "6 pages built; clinical page contains 4 videos; terminal pages contain no videos; old-videos excluded.",
+    "archive": "All 16 montage archive checksums verified before replacement.",
+    "visual": "Decoded frames from all four clips checked for actual UI states and visible cursor."
+  }
+}

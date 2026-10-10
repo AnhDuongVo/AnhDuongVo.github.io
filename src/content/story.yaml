@@ -1,128 +1,183 @@
-statement: "I apply AI to real-world problems in healthcare and the life sciences: LLM agents, their evaluation, and the tooling to run them."
+statement: 'I apply AI to real-world problems in healthcare and the life sciences: LLM agents, their evaluation, and the tooling
+  to run them.'
+bio: 'I’m Maria (Anh Duong Vo), a machine learning researcher with eight years of experience in AI and data science across
+  academia and industry. My work focuses on turning complex AI methods into practical systems for healthcare and the life
+  sciences.
 
-bio: |
-  Hi, I'm Maria (Anh Duong Vo), a postdoctoral researcher at the ETH AI Center and the Institute of Neuroinformatics (INI) in Zurich. I completed my PhD in June 2026 under the supervision of Luc Van Gool (Computer Vision Lab) and Benjamin Grewe.
 
-  I work on agentic AI: LLM-based agents, retrieval-augmented generation, and the evaluation and guardrails needed to use them in healthcare. My recent projects are end-to-end clinical agents built with the NVIDIA NeMo stack (NeMo Agent Toolkit, NIM, Guardrails, BioNeMo), alongside vendor-neutral tooling for agent evaluation and citation-verified retrieval, and a simulator for agent workloads on serving clusters. The code is on [GitHub](https://github.com/AnhDuongVo).
+  During my PhD and postdoctoral research at ETH Zurich, I developed multimodal machine learning systems, collaborated with
+  industry partners, and worked on healthcare projects using different AI technologies, including NVIDIA tools. At Johnson
+  & Johnson Innovative Medicine, I designed LLM-based agent prototypes and evaluation methods informed by scientific experts.
 
-  This year I was a research intern at Johnson & Johnson Innovative Medicine, where I designed LLM agent systems and evaluation frameworks that combine automated metrics with expert feedback to assess model reliability and performance. Across more than 8 years in AI I have shipped scalable models and data pipelines over multimodal data (images, video, audio, text, and neural recordings).
 
-where_i_stand: |
-  I am looking for industry roles in agentic AI and applied machine learning, including roles that work closely with the developers who use these systems. If you would like to connect, collaborate, or discuss opportunities, feel free to reach out by email or on LinkedIn.
+  Alongside this work, I build open-source examples that help developers understand, evaluate and deploy agentic AI. Several
+  projects reconstruct selected patterns from healthcare and life-science workflows as independent examples, mostly using
+  NVIDIA technologies. These showcase repositories are distinct from the original research and industry systems. I also enjoy
+  teaching, mentoring and helping technical communities grow.
 
+
+  My [research publications](/about/#publications) and [code](https://github.com/AnhDuongVo) show the research and engineering
+  behind this work.
+
+  '
+where_i_stand: 'I am looking for industry roles in agentic AI and applied machine learning, including roles that work closely
+  with the developers who use these systems. If you would like to connect, collaborate, or discuss opportunities, feel free
+  to reach out by email or on LinkedIn.
+
+  '
 experience:
-  - role: Postdoctoral Researcher (Machine Learning)
-    org: ETH AI Center / Institute of Neuroinformatics
-    url: https://ai.ethz.ch
-    start: Jun 2026
-    end: Now
-    badge: ETH
-  - role: Research Intern, LLM agents
-    org: Johnson & Johnson Innovative Medicine
-    url: https://www.jnj.com/innovativemedicine/
-    start: Oct 2025
-    end: Feb 2026
-    badge: J&J
-    text: Applied generative AI and NLP to large-scale biomedical data. Designed LLM-based agent systems, and developed evaluation frameworks combining automated metrics and expert feedback to assess model reliability and performance.
-  - role: PhD Researcher, Machine Learning and Neuroscience
-    org: ETH AI Center / Institute of Neuroinformatics
-    url: https://ai.ethz.ch
-    start: Oct 2021
-    end: Jun 2026
-    badge: ETH
-    text: Deep learning models for regression and classification on multimodal data, with self-supervised learning for limited-data regimes. Engineered scalable ML pipelines, reducing one computation from 30 days to 1 day.
-  - role: Research Assistant, Neural Networks and ML
-    org: Frankfurt Institute for Advanced Studies
-    start: Mar 2020
-    end: Mar 2021
-    badge: FIAS
-    text: Optimised data science pipelines for large-scale time series. Python, C/C++, Julia.
-  - role: Working Student, Engineering
-    org: Fresenius Medical Care
-    start: Sep 2017
-    end: Feb 2018
-    badge: FMC
-    text: SQL-based data management for four teams and a department-wide website.
-  - role: Working Student, Research
-    org: Frankfurt School of Finance and Management
-    start: Nov 2016
-    end: Feb 2017
-    badge: FS
-  - role: Intern, Software Engineering
-    org: Deutsche Bank
-    start: Sep 2016
-    end: Nov 2016
-    badge: DB
-    text: Automated data analysis pipeline for 100,000+ customers; helped two teams move to agile.
-
+- role: Postdoctoral Researcher (Machine Learning)
+  org: ETH AI Center / Institute of Neuroinformatics
+  url: https://ai.ethz.ch
+  start: Jun 2026
+  end: Now
+  badge: ETH
+- role: Research Intern, LLM agents
+  org: Johnson & Johnson Innovative Medicine
+  url: https://www.jnj.com/innovativemedicine/
+  start: Oct 2025
+  end: Feb 2026
+  badge: J&J
+  text: Applied generative AI and NLP to large-scale biomedical data. Designed LLM-based agent systems, and developed evaluation
+    frameworks combining automated metrics and expert feedback to assess model reliability and performance.
+- role: PhD Researcher, Machine Learning and Neuroscience
+  org: ETH AI Center / Institute of Neuroinformatics
+  url: https://ai.ethz.ch
+  start: Oct 2021
+  end: Jun 2026
+  badge: ETH
+  text: Deep learning models for regression and classification on multimodal data, with self-supervised learning for limited-data
+    regimes. Engineered scalable ML pipelines, reducing one computation from 30 days to 1 day.
+- role: Research Assistant, Neural Networks and ML
+  org: Frankfurt Institute for Advanced Studies
+  start: Mar 2020
+  end: Mar 2021
+  badge: FIAS
+  text: Optimised data science pipelines for large-scale time series. Python, C/C++, Julia.
+- role: Working Student, Engineering
+  org: Fresenius Medical Care
+  start: Sep 2017
+  end: Feb 2018
+  badge: FMC
+  text: SQL-based data management for four teams and a department-wide website.
+- role: Working Student, Research
+  org: Frankfurt School of Finance and Management
+  start: Nov 2016
+  end: Feb 2017
+  badge: FS
+- role: Intern, Software Engineering
+  org: Deutsche Bank
+  start: Sep 2016
+  end: Nov 2016
+  badge: DB
+  text: Automated data analysis pipeline for 100,000+ customers; helped two teams move to agile.
 education:
-  - degree: PhD, Computer Science (AI)
-    org: ETH Zurich, ETH AI Center
-    years: 2021 to 2026
-    text: "Supervisors: Luc Van Gool (Computer Vision Lab) and Benjamin Grewe (Institute of Neuroinformatics). Defended 25 June 2026."
-  - degree: BSc and MSc, Computer Science
-    org: Goethe University Frankfurt
-    years: 2015 to 2021
-    text: "GPA 4.0/4.0. Minor in mathematics. Exchange semester at Sapienza University Rome (robotics and AI). Teaching assistant for data structures, algorithm design, Python and SQL."
-
+- degree: PhD, Computer Science (AI)
+  org: ETH Zurich, ETH AI Center
+  years: 2021 to 2026
+  text: 'Supervisors: Luc Van Gool (Computer Vision Lab) and Benjamin Grewe (Institute of Neuroinformatics). Defended 25 June
+    2026.'
+- degree: BSc and MSc, Computer Science
+  org: Goethe University Frankfurt
+  years: 2015 to 2021
+  text: GPA 4.0/4.0. Minor in mathematics. Exchange semester at Sapienza University Rome (robotics and AI). Teaching assistant
+    for data structures, algorithm design, Python and SQL.
 publications:
-  - title: "Lost in Translation? LLMs, Education, and Linguistic Fairness"
-    authors: "Noga Mudrik, ..., Anh Duong Vo, et al."
-    venue: IEEE Integrated STEM Education Conference (ISEC)
-    year: 2025
-    url: https://ieeexplore.ieee.org/
-  - title: "Adaptive Neuronal Populations in Medial Prefrontal Cortex During Flexible Avoidance Learning"
-    authors: "Anh Duong Vo, Benjamin Ehret, Roman Boehringer, Elisabeth Abs, Philipp Eugster, Pau Vilimelis Aceituno, Benjamin Grewe"
-    venue: Society for Neuroscience Annual Meeting, Chicago
-    year: 2024
-  - title: "Linking Sensory Stimuli to Avoidance Behavior: Investigating the Role of Adaptive Cell Populations in Prefrontal Cortex"
-    authors: "Anh Duong Vo, Benjamin Ehret, Roman Boehringer, Elisabeth Abs, Philipp Eugster, Benjamin Grewe"
-    venue: FENS Forum, Vienna
-    year: 2024
-  - title: "Exploring the Functional Hierarchy of Different Pyramidal Cell Types in Temporal Processing"
-    authors: "Anh Duong Vo, Elisabeth Abs, Pau Vilimelis Aceituno, Benjamin Friedrich Grewe, Katharina Anna Wilmes"
-    venue: arXiv:2312.07422
-    year: 2023
-    url: https://arxiv.org/abs/2312.07422
-  - title: "Linking Tone Representation and Behavior Execution in Avoidance Learning in Medial Prefrontal Cortex"
-    authors: "Anh Duong Vo, Benjamin Ehret, Roman Boehringer, Elisabeth Abs, Benjamin Grewe"
-    venue: Bernstein Conference, Berlin
-    year: 2023
-    url: https://doi.org/10.12751/nncn.bc2023.069
-  - title: "Competition for Synaptic Building Blocks Shapes Synaptic Plasticity"
-    authors: "Jochen Triesch, Anh Duong Vo, Anne-Sophie Hafner"
-    venue: "eLife 7:e37836"
-    year: 2018
-    url: https://elifesciences.org/articles/37836
-
+- title: Lost in Translation? LLMs, Education, and Linguistic Fairness
+  authors: Noga Mudrik, ..., Anh Duong Vo, et al.
+  venue: IEEE Integrated STEM Education Conference (ISEC)
+  year: 2025
+  url: https://ieeexplore.ieee.org/
+- title: Adaptive Neuronal Populations in Medial Prefrontal Cortex During Flexible Avoidance Learning
+  authors: Anh Duong Vo, Benjamin Ehret, Roman Boehringer, Elisabeth Abs, Philipp Eugster, Pau Vilimelis Aceituno, Benjamin
+    Grewe
+  venue: Society for Neuroscience Annual Meeting, Chicago
+  year: 2024
+- title: 'Linking Sensory Stimuli to Avoidance Behavior: Investigating the Role of Adaptive Cell Populations in Prefrontal
+    Cortex'
+  authors: Anh Duong Vo, Benjamin Ehret, Roman Boehringer, Elisabeth Abs, Philipp Eugster, Benjamin Grewe
+  venue: FENS Forum, Vienna
+  year: 2024
+- title: Exploring the Functional Hierarchy of Different Pyramidal Cell Types in Temporal Processing
+  authors: Anh Duong Vo, Elisabeth Abs, Pau Vilimelis Aceituno, Benjamin Friedrich Grewe, Katharina Anna Wilmes
+  venue: arXiv:2312.07422
+  year: 2023
+  url: https://arxiv.org/abs/2312.07422
+- title: Linking Tone Representation and Behavior Execution in Avoidance Learning in Medial Prefrontal Cortex
+  authors: Anh Duong Vo, Benjamin Ehret, Roman Boehringer, Elisabeth Abs, Benjamin Grewe
+  venue: Bernstein Conference, Berlin
+  year: 2023
+  url: https://doi.org/10.12751/nncn.bc2023.069
+- title: Competition for Synaptic Building Blocks Shapes Synaptic Plasticity
+  authors: Jochen Triesch, Anh Duong Vo, Anne-Sophie Hafner
+  venue: eLife 7:e37836
+  year: 2018
+  url: https://elifesciences.org/articles/37836
 skills:
-  - group: Agentic AI and LLMs
-    items: [LLM agents and orchestration, NeMo Agent Toolkit, LangGraph, MCP, Retrieval-augmented generation, Structured output, Evaluation and guardrails, Human-in-the-loop review, NIM, Nemotron, NeMo Guardrails, BioNeMo, vLLM, Dynamo]
-  - group: Machine learning
-    items: [PyTorch, TensorFlow, Hugging Face, scikit-learn, Self-supervised learning, Multimodal models, Diffusion models, Time series, Computer vision]
-  - group: Engineering
-    items: [Python, C++, SQL, Julia, Matlab, R, CUDA, Docker, Git, Linux, HPC, FHIR, LaTeX]
-
+- group: Agentic AI and LLMs
+  items:
+  - LLM agents and orchestration
+  - NeMo Agent Toolkit
+  - LangGraph
+  - MCP
+  - Retrieval-augmented generation
+  - Structured output
+  - Evaluation and guardrails
+  - Human-in-the-loop review
+  - NIM
+  - Nemotron
+  - NeMo Guardrails
+  - BioNeMo
+  - vLLM
+  - Dynamo
+- group: Machine learning
+  items:
+  - PyTorch
+  - TensorFlow
+  - Hugging Face
+  - scikit-learn
+  - Self-supervised learning
+  - Multimodal models
+  - Diffusion models
+  - Time series
+  - Computer vision
+- group: Engineering
+  items:
+  - Python
+  - C++
+  - SQL
+  - Julia
+  - Matlab
+  - R
+  - CUDA
+  - Docker
+  - Git
+  - Linux
+  - HPC
+  - FHIR
+  - LaTeX
 languages:
-  - name: German
-    level: native
-  - name: English
-    level: fluent
-  - name: Vietnamese
-    level: fluent
-
+- name: German
+  level: native
+- name: English
+  level: fluent
+- name: Vietnamese
+  level: fluent
 awards:
-  - title: Travel grant for summer schools
-    org: Kavli Institute
-    year: 2022
-  - title: University scholarship
-    org: German National Merit Foundation (Studienstiftung des deutschen Volkes)
-    year: from 2016
-  - title: University scholarship
-    org: Heinrich-Böll Foundation
-    year: from 2015
-  - title: High school scholarship
-    org: Hertie Foundation
-    year: from 2012
-
-hobbies: [Spikeball and stand-up paddling, Building games for friends, Trying new recipes, Dog sitting]
+- title: Travel grant for summer schools
+  org: Kavli Institute
+  year: 2022
+- title: University scholarship
+  org: German National Merit Foundation (Studienstiftung des deutschen Volkes)
+  year: from 2016
+- title: University scholarship
+  org: Heinrich-Böll Foundation
+  year: from 2015
+- title: High school scholarship
+  org: Hertie Foundation
+  year: from 2012
+hobbies:
+- Spikeball and stand-up paddling
+- Building games for friends
+- Trying new recipes
+- Dog sitting

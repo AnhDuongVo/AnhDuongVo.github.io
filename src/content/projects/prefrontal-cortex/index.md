@@ -40,3 +40,8 @@ I identified a population I call "transfer neurons": cells whose activity suppor
 - **Transfer and generalisation.** Keeping useful structure while the task changes is the same problem continual learning and robust AI systems face.
 - **Representations that stay stable.** The brain reuses parts of a representation instead of overwriting it, which is a useful idea for models that should not forget.
 - **Working with messy, high-dimensional data.** Noisy recordings, few trials per condition and long time series taught me most of what I know about evaluating models honestly, which carries straight into how I evaluate agents.
+
+
+## Research and engineering evidence
+
+This project represents sustained research ownership at ETH Zurich, including multimodal data pipelines and GPU optimization. My broader PhD engineering work reduced one computation from 30 days to one day. [Publications and conference presentations](../../about/#publications) provide the research context. Related papers include [temporal processing across pyramidal cell types](https://arxiv.org/abs/2312.07422) and [synaptic plasticity](https://elifesciences.org/articles/37836); these are distinct studies, not publications of every result on this page.

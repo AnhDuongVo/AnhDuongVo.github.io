@@ -1,7 +1,8 @@
 ---
 card_cover: card.jpg
 title: Agent workload simulation
-summary: Exploring latency, scheduling and GPU-serving economics for LLM agents.
+summary: Simulating agent workflows to explore serving capacity, waiting times and
+  estimated costs before hardware experiments.
 date: 2026-10-07
 weight: 8
 tags:
@@ -11,13 +12,21 @@ tags:
 - Scheduling
 - Systems
 short: agentsim
-card: Model how agent concurrency, batching, caching and scheduling affect latency
-  and estimated costs.
+card: Explore how many agents a modeled serving cluster can support and where concurrency,
+  scheduling and tool waits create bottlenecks.
 ---
 
 Agent workloads involve repeated model calls, tool use, parallel branches and synchronization delays. These patterns can behave very differently from a single chat request.
 
 [agentsim](https://github.com/AnhDuongVo/agentsim) is a discrete-event simulator that models these workflows across configurable serving replicas. It explores how concurrency, batching, caching and scheduling policies affect latency, throughput and estimated costs.
+
+## Motivation
+
+Serving an agent involves more than serving a single prompt: tool delays, repeated calls and parallel branches can change when requests reach the model and how long users wait. Testing every scheduling or capacity choice on GPUs can be expensive. This project provides a way to explore those choices under explicit assumptions before running hardware experiments.
+
+## What the program does
+
+agentsim takes a workload profile and a serving-cluster configuration, simulates agent runs, and reports throughput, latency percentiles, synchronization delays, utilization and estimated cost per run. Users can compare agent concurrency, replica counts and scheduling policies. An optional benchmark and calibration workflow fits parts of the model to observed endpoint behavior. The results support hypothesis testing and experiment planning; default outputs are simulations.
 
 ## Inspect and reproduce
 

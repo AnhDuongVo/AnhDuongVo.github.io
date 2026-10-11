@@ -1,17 +1,25 @@
 ---
 card_cover: card.jpg
 title: Prefrontal cortex and flexible avoidance learning
-summary: My PhD research on how the prefrontal cortex supports adaptive, transferable behavior, combining large-scale neural recordings with machine learning.
+summary: Studying how neural populations retain useful knowledge while adapting to
+  reversed rules during avoidance learning.
 weight: 5
-short: "PhD"
-card: "How the prefrontal cortex supports flexible behaviour, from large-scale neural recordings and machine learning."
+short: PhD
+card: Investigate how the brain adapts when rules change, using neural recordings,
+  behavior and machine learning.
 tags:
-  - Neuroscience
-  - Machine Learning
-  - PhD
+- Neuroscience
+- Machine Learning
+- PhD
 ---
 
 This was the main project of my PhD at ETH Zurich (2021 to 2026). It is neuroscience rather than agentic AI, but the question behind it, how a system keeps what it learned while adapting to a changed situation, is one that machine learning faces as well.
+
+## Project overview
+
+**Motivation:** Understanding how the brain adapts when a learned rule changes can help explain how useful knowledge is retained across situations. This project investigates that question in the medial prefrontal cortex.
+
+**What the project does:** It combines neural recordings and behavior from an avoidance-learning and reversal task with machine-learning models and population analyses. The analysis asks which activity patterns track sensory cues, rules and actions, and which patterns transfer across task contexts. The deliverables are research analyses and a computational pipeline for studying flexible behavior.
 
 ## The question
 

@@ -4,11 +4,13 @@ url: https://anhduongvo.github.io
 email: anhduongvo.m@gmail.com
 github: https://github.com/AnhDuongVo
 linkedin: https://www.linkedin.com/in/anh-duong-vo/
-description: 'Maria (Anh Duong Vo): eight years of AI research and engineering across academia and industry, healthcare and
-  life sciences, and reproducible developer examples.'
-headline: Hi, I'm Maria! I turn research in AI into tools for healthcare and the life sciences.
-tagline: Machine learning researcher at the ETH AI Center and INI · PhD, ETH Zurich 2026 · 8+ years in AI across research
-  and industry
+description: 'Maria (Anh Duong Vo): eight years of AI research and engineering across
+  academia and industry, healthcare and life sciences, and reproducible developer
+  examples.'
+headline: Hi, I'm Maria! I turn research in AI into tools for healthcare and the life
+  sciences.
+tagline: Machine learning researcher at the ETH AI Center and INI · PhD, ETH Zurich
+  2026 · 8+ years in AI across research and industry
 cta_primary:
   label: Get in touch
   href: mailto:anhduongvo.m@gmail.com
@@ -22,29 +24,36 @@ projects:
 - prefrontal-cortex
 repos:
 - name: consult-to-note
-  text: Evidence-linked clinical note drafts with deterministic checks and optional clinician review
+  text: Turn consultation transcripts into evidence-linked SOAP note drafts for clinician
+    review
   stack: Nemotron · NeMo Agent Toolkit · Riva
 - name: trial-matcher
-  text: FHIR trial pre-screening with explicit unknowns and uncalibrated confidence scores
+  text: Compare patient records with trial criteria and show what is met, unmet or
+    unknown
   stack: Nemotron · FHIR · ClinicalTrials.gov
 - name: csr-assistant
-  text: Study-report drafts checked against table rows, with numerical and semantic review
+  text: Draft study-report sections from tables and flag selected inconsistencies
+    for medical writers
   stack: Nemotron · ICH E3
 - name: ai-scientist
-  text: BioNeMo orchestration demonstration with heuristic ranking and simulated offline results
+  text: Connect protein-design steps and assemble traceable candidate reports for
+    scientific review
   stack: BioNeMo NIMs
 - name: clinical-agentic-ai-demo
-  text: Four interactive illustrations using synthetic data and simplified checking logic
+  text: Explore four workflow ideas interactively with synthetic inputs and simplified
+    checks
   stack: Streamlit
 - name: mcp-bionemo
-  text: Typed MCP interfaces for selected BioNeMo models, plus an offline simulator
+  text: Let MCP clients discover and call selected BioNeMo models through typed tools
   stack: MCP · BioNeMo
 - name: agenteval
-  text: Selected trace adapters, tool metrics, citation integrity and numerical screening
+  text: Inspect agent tool use and screen citations and numerical claims with explicit
+    metrics
   stack: LangGraph · LlamaIndex · OpenAI
 - name: rag-guidelines
-  text: Guideline retrieval with citation, lexical and numerical screening
+  text: Answer questions from a small corpus and screen the cited evidence in each
+    response
   stack: Python · optional OpenAI-compatible endpoint
 - name: agentsim
-  text: Agent workload simulation with estimated latency and serving costs
+  text: Explore serving capacity, latency and estimated cost for simulated agent workflows
   stack: Python

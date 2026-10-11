@@ -1,7 +1,8 @@
 ---
 card_cover: card.jpg
 title: 'Clinical agentic AI: four workflow prototypes'
-summary: Four reproducible AI workflow prototypes for healthcare and life sciences.
+summary: Prototypes for drafting clinical notes, screening trial criteria, reviewing
+  study reports and exploring protein-design workflows.
 date: 2026-09-01
 weight: 10
 tags:
@@ -11,7 +12,8 @@ tags:
 - NVIDIA
 - RAG
 short: Clinical agents
-card: Clinical documentation, trial screening, study reports and protein-design orchestration.
+card: From consultation transcripts to reviewable notes; from patient records and
+  study tables to evidence-linked screening and reports.
 ---
 
 These independent projects explore clinical documentation, trial pre-screening, clinical study reporting and protein-design research. They draw on problems encountered during my research and industry collaborations, reconstructed in my own time as developer examples.
@@ -23,6 +25,10 @@ The common engineering problem is reviewing generated outputs against evidence. 
 The recordings below come from [clinical-agentic-ai-demo](https://github.com/AnhDuongVo/clinical-agentic-ai-demo). That interactive page uses synthetic data, bundled text and simplified checking logic. It illustrates the workflows; the full repositories contain additional functionality and optional model integrations.
 
 ### consult-to-note
+
+**Motivation:** Turning a consultation into a structured clinical note requires preserving details such as doses, symptoms and follow-up plans. A fluent draft can still omit evidence or introduce an incorrect value, making it difficult to review.
+
+**What the program does:** consult-to-note turns a consultation transcript, or speech processed through its optional speech integration, into a structured SOAP note. Draft sentences link back to transcript evidence. The pipeline screens selected numerical, dose, citation and consistency errors, supports clinician review, and exports a preliminary FHIR document. Its aim is to make drafting and review more traceable; it does not replace clinical judgment.
 
 **Engineering decision:** keep each note sentence linked to transcript evidence. Numerical, dose/unit, citation, negation and laterality failures remain flagged even when a model judge is configured. Ambiguous lexical matches can use a probabilistic judge. Clinician review remains necessary for the whole note.
 
@@ -36,6 +42,10 @@ The repository includes batch, streaming and FHIR export paths, plus an ACI-Benc
 
 ### trial-matcher
 
+**Motivation:** Trial pre-screening requires comparing a patient record with many eligibility criteria. Missing laboratory results, stale measurements and complex criteria can make a confident yes-or-no answer misleading.
+
+**What the program does:** trial-matcher compares a patient’s FHIR record with a ClinicalTrials.gov study and produces an evidence-linked status for each criterion: met, not met or unknown. It applies deterministic rules to supported criteria and leaves unsupported quantitative criteria for review. A study coordinator reviews the proposed result before a candidate status can be changed. The project supports pre-screening rather than making enrollment decisions.
+
 **Engineering decision:** preserve missing or unsupported evidence as “unknown.” Parsed age, sex and simple laboratory thresholds use deterministic rules. Labs require compatible units and usable dates. A criterion-specific measurement window takes precedence over the documented demo fallback. Unsupported compound thresholds and quantitative criteria require review rather than model arithmetic.
 
 {{< video src="trial-matcher.mp4" controls="yes" >}}
@@ -48,6 +58,10 @@ Criteria parsing and qualitative assessments remain probabilistic. Confidence sc
 
 ### csr-assistant
 
+**Motivation:** Writing a clinical study report means translating source tables into a consistent narrative. Numbers, treatment arms and outcome descriptions can drift during drafting, and missing sections create additional review work.
+
+**What the program does:** csr-assistant takes a draft report, study tables and a protocol synopsis. It screens the report’s ICH E3 structure, drafts supported missing sections with table-row citations, and returns findings about selected numerical inconsistencies and qualitative claims. A medical writer can review the proposed sections and findings before exporting revised text and a review report. The project aims to make the source-to-report review trail easier to inspect.
+
 **Engineering decision:** cite table rows for generated data sentences, check numerical values and explicit directions, and flag detectable treatment-arm or endpoint mismatches. Model review handles qualitative claims and ambiguous numerical context; neither layer establishes complete clinical correctness.
 
 {{< video src="csr-assistant.mp4" controls="yes" >}}
@@ -59,6 +73,10 @@ Criteria parsing and qualitative assessments remain probabilistic. Confidence sc
 Medical writers must review the revised text and unresolved findings. The repository includes an evaluation harness for error detection and false alarms.
 
 ### ai-scientist
+
+**Motivation:** Exploring protein binder candidates involves several separate steps: reviewing literature, generating backbones, designing sequences and examining structural scores. Connecting these steps and keeping candidate inputs and results traceable is an engineering problem in its own right.
+
+**What the program does:** ai-scientist orchestrates a candidate-design workflow around RFdiffusion, ProteinMPNN and Boltz-2, then assembles a ranked report for a scientist to inspect. It includes a reproducible simulator for testing the workflow without model endpoints. The project demonstrates orchestration and candidate comparison; its heuristic ranking and simulated scores do not establish binding or biological effectiveness.
 
 **Engineering decision:** orchestrate RFdiffusion, ProteinMPNN and Boltz-2 with traceable candidate reports. Sequence design is restricted to the generated binder chain and checks sequence length. Stable simulation seeds make offline results reproducible across Python processes.
 

@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-12",
+  "capture": "Chrome MediaRecorder footage of the actual consult-to-note pipeline UI. Synthetic consultation with explicitly labeled scripted model responses (not live generation); real extraction/draft/ground/revise/FHIR software control flow. Real clicks and scrolling; idle gaps shortened. Cursor is a visualization of captured interaction positions, interpolated before each recorded click, with a brief click ring. No added text or end cards.",
+  "clips": [
+    {
+      "project": "consult-to-note",
+      "seconds": 32.333,
+      "source_seconds": 66.25909999990463,
+      "fps": 30,
+      "clicks": 4,
+      "idle_cuts": [
+        [
+          9.066800048828124,
+          13.44410009765625
+        ],
+        [
+          15.84410009765625,
+          21.409699951171874
+        ],
+        [
+          23.809699951171876,
+          27.194300048828126
+        ],
+        [
+          29.594300048828128,
+          32.017
+        ],
+        [
+          35.49410009765625,
+          37.267300048828126
+        ],
+        [
+          39.667300048828125,
+          45.377199951171875
+        ],
+        [
+          47.77719995117187,
+          56.210699951171875
+        ]
+      ],
+      "click_timeline": [
+        {
+          "t": 2.85,
+          "x": 370,
+          "y": 789,
+          "target": "BUTTON"
+        },
+        {
+          "t": 10.05,
+          "x": 1161,
+          "y": 717,
+          "target": "SUMMARY"
+        },
+        {
+          "t": 17.25,
+          "x": 1161,
+          "y": 472,
+          "target": "SUMMARY"
+        },
+        {
+          "t": 22.466,
+          "x": 370,
+          "y": 854,
+          "target": "BUTTON"
+        }
+      ],
+      "sha256": "ff2cb174c29d1a4d9156e5a7794906c61b3d1720a0ebe36387d94c5eb2c93e1e"
+    }
+  ]
+}

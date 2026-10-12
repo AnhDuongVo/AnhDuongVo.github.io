@@ -1,3 +1,11 @@
+## SOAP workflow replacement — 12 October 2026
+
+The consult-to-note MP4 now records `consult-to-note/examples/soap_workflow.py`, which runs the actual LangGraph extraction, drafting, grounding, revision and FHIR pipeline. Input transcript and output SOAP note appear side by side. All four SOAP sections, evidence findings and the correction of an 800 mg scripted error to 400 mg are shown. Synthetic input and scripted model responses are explicitly labeled in the app; this is not live model generation. No captions or end cards are added. Recorded click coordinates drive a smooth cursor overlay and click rings; long idle gaps are shortened. `soap-video-manifest.json` records provenance, click timings and the new video hash.
+
+The immediately previous consultation MP4, poster and both repository GIFs are preserved in `old-videos/2026-10-12-before-soap/` with checksums. The other three recordings retain their prior simplified illustration scope and production method below.
+
+---
+
 ## Current media format — 10 October 2026
 
 Four clinical MP4s show real interactions with the running offline Streamlit illustration. The footage is recorded continuously, with the middle of long idle gaps removed and playback slowed to make interactions readable. A visible pointer approaches the actual recorded click positions smoothly; a brief terracotta ring marks each click. The cursor is composited from recorded interaction coordinates. No added captions, text overlays, audio or end cards appear. Matching README GIFs use the same footage. `smooth-video-manifest.json` records timing and hashes; `render_smooth.py` documents the rendering process.

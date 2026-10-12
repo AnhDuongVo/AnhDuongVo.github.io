@@ -22,9 +22,11 @@ The common engineering problem is reviewing generated outputs against evidence. 
 
 ## Watch the workflows
 
-The recordings below come from [clinical-agentic-ai-demo](https://github.com/AnhDuongVo/clinical-agentic-ai-demo). That interactive page uses synthetic data, bundled text and simplified checking logic. It illustrates the workflows; the full repositories contain additional functionality and optional model integrations.
+The consult-to-note recording runs the full repository’s SOAP pipeline with synthetic input and clearly labeled scripted model responses. The other three recordings come from [clinical-agentic-ai-demo](https://github.com/AnhDuongVo/clinical-agentic-ai-demo), which uses synthetic data, bundled text and simplified checking logic. The recording scope is stated for each project.
 
 ### consult-to-note
+
+**Input:** a consultation transcript. **Output:** a structured SOAP draft with **Subjective, Objective, Assessment and Plan**, transcript citations, check findings and a preliminary FHIR export.
 
 **Motivation:** Turning a consultation into a structured clinical note requires preserving details such as doses, symptoms and follow-up plans. A fluent draft can still omit evidence or introduce an incorrect value, making it difficult to review.
 
@@ -34,7 +36,7 @@ The recordings below come from [clinical-agentic-ai-demo](https://github.com/Anh
 
 {{< video src="consult-to-note.mp4" controls="yes" >}}
 
-**Demo scope:** One selected scalar per sentence is compared with bundled source values. Other numbers, narrative claims and the full note-generation pipeline are not checked here.
+**Recording scope:** The actual extract → draft → ground → revise → FHIR workflow runs in the full repository’s [SOAP interface](https://github.com/AnhDuongVo/consult-to-note/blob/main/examples/soap_workflow.py). A synthetic consultation and scripted model responses make the example reproducible offline. The video shows all four SOAP sections, inspects source evidence, and revises a planted 800 mg error to 400 mg. This demonstrates the software pipeline; it does not demonstrate live model generation or complete clinical correctness.
 
 **Try it offline:** clone [consult-to-note](https://github.com/AnhDuongVo/consult-to-note), install `pip install -e ".[dev]"`, then run `pytest -q`. Tests use synthetic fixtures and model stubs. `c2n demo --no-trials` generates text using a configured model endpoint and requires its credentials; it is a separate live path.
 

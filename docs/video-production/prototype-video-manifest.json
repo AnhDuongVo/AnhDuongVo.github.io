@@ -1,0 +1,226 @@
+{
+  "date": "2026-10-13",
+  "capture": "Continuous Chrome MediaRecorder footage of each full repository workflow interface, recorded through real UI interaction. Synthetic inputs; scripted model responses for trial-matcher and csr-assistant; the repository SimulatedBioNeMo for ai-scientist. No live model generation or biological inference. Idle gaps shortened; captured click coordinates drive smooth cursor movement and click rings. No added captions, audio or end cards.",
+  "clips": [
+    {
+      "project": "trial-matcher",
+      "seconds": 21.3,
+      "source_seconds": 60.52540000009537,
+      "fps": 30,
+      "clicks": 6,
+      "idle_cuts": [
+        [
+          11.14160009765625,
+          23.12639990234375
+        ],
+        [
+          25.52639990234375,
+          29.2465
+        ],
+        [
+          31.725899902343752,
+          41.49430004882813
+        ]
+      ],
+      "click_timeline": [
+        {
+          "t": 2.85,
+          "x": 421,
+          "y": 433,
+          "target": "SUMMARY"
+        },
+        {
+          "t": 3.918,
+          "x": 209,
+          "y": 552,
+          "target": "BUTTON"
+        },
+        {
+          "t": 7.518,
+          "x": 1091,
+          "y": 361,
+          "target": "SUMMARY"
+        },
+        {
+          "t": 11.118,
+          "x": 1074,
+          "y": 451,
+          "target": "Criterion index"
+        },
+        {
+          "t": 15.637,
+          "x": 1091,
+          "y": 361,
+          "target": "SUMMARY"
+        },
+        {
+          "t": 16.497,
+          "x": 844,
+          "y": 472,
+          "target": "BUTTON"
+        }
+      ],
+      "sha256": "61ad01be817be4c15115313cccf0ce7b3e7201f75eb3f86a1780677aa188745d"
+    },
+    {
+      "project": "csr-assistant",
+      "seconds": 31.633,
+      "source_seconds": 116.61689999997616,
+      "fps": 30,
+      "clicks": 7,
+      "idle_cuts": [
+        [
+          12.11960009765625,
+          20.3087001953125
+        ],
+        [
+          22.708700195312503,
+          28.12210009765625
+        ],
+        [
+          30.522100097656253,
+          38.04440014648438
+        ],
+        [
+          40.45700024414062,
+          48.20790014648438
+        ],
+        [
+          50.622800048828125,
+          57.63380004882813
+        ],
+        [
+          60.03380004882813,
+          76.23200024414062
+        ]
+      ],
+      "click_timeline": [
+        {
+          "t": 2.85,
+          "x": 257,
+          "y": 532,
+          "target": "BUTTON"
+        },
+        {
+          "t": 3.575,
+          "x": 404,
+          "y": 261,
+          "target": "Inspect source"
+        },
+        {
+          "t": 7.175,
+          "x": 421,
+          "y": 393,
+          "target": "DIV"
+        },
+        {
+          "t": 10.775,
+          "x": 1074,
+          "y": 342,
+          "target": "Inspect output"
+        },
+        {
+          "t": 17.994,
+          "x": 1074,
+          "y": 341,
+          "target": "Inspect output"
+        },
+        {
+          "t": 21.616,
+          "x": 1091,
+          "y": 413,
+          "target": "SUMMARY"
+        },
+        {
+          "t": 25.216,
+          "x": 857,
+          "y": 604,
+          "target": "BUTTON"
+        }
+      ],
+      "sha256": "c82be09b199a6276e55252e952d4432755a2916b51033ecebe7f363864f0be7e"
+    },
+    {
+      "project": "ai-scientist",
+      "seconds": 39.2,
+      "source_seconds": 186.431,
+      "fps": 30,
+      "clicks": 7,
+      "idle_cuts": [
+        [
+          43.241600341796875,
+          52.18710034179688
+        ],
+        [
+          55.43150024414063,
+          67.38750024414063
+        ],
+        [
+          71.19720019531249,
+          80.97110034179688
+        ],
+        [
+          83.37110034179688,
+          112.31570009768011
+        ],
+        [
+          114.7157000976801,
+          127.64900014650821
+        ],
+        [
+          131.88030019533633,
+          151.3770001465082
+        ],
+        [
+          153.92880019533635,
+          161.64470009768007
+        ]
+      ],
+      "click_timeline": [
+        {
+          "t": 2.85,
+          "x": 250,
+          "y": 532,
+          "target": "BUTTON"
+        },
+        {
+          "t": 6.45,
+          "x": 1062,
+          "y": 398,
+          "target": "Candidate"
+        },
+        {
+          "t": 7.717,
+          "x": 1079,
+          "y": 592,
+          "target": "SUMMARY"
+        },
+        {
+          "t": 12.284,
+          "x": 1078,
+          "y": 558,
+          "target": "DIV"
+        },
+        {
+          "t": 13.431,
+          "x": 1079,
+          "y": 617,
+          "target": "SUMMARY"
+        },
+        {
+          "t": 24.231,
+          "x": 1079,
+          "y": 361,
+          "target": "SUMMARY"
+        },
+        {
+          "t": 25.133,
+          "x": 1079,
+          "y": 353,
+          "target": "SUMMARY"
+        }
+      ],
+      "sha256": "ffe0867e3b39259e012483c0b87668d889e4f9df8b74eeb7b9b50995c73b1af5"
+    }
+  ]
+}

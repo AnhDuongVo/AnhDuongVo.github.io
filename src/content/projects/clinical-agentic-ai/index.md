@@ -22,7 +22,7 @@ The common engineering problem is reviewing generated outputs against evidence. 
 
 ## Watch the workflows
 
-The consult-to-note recording runs the full repository’s SOAP pipeline with synthetic input and clearly labeled scripted model responses. The other three recordings come from [clinical-agentic-ai-demo](https://github.com/AnhDuongVo/clinical-agentic-ai-demo), which uses synthetic data, bundled text and simplified checking logic. The recording scope is stated for each project.
+Each recording runs its full repository’s workflow through a reproducible interface. Inputs are synthetic. Consult-to-note, trial-matcher and csr-assistant use clearly labeled scripted model responses; ai-scientist uses its repository’s BioNeMo simulator. These recordings demonstrate software execution without live model endpoints. The recording scope is stated for each project.
 
 ### consult-to-note
 
@@ -44,6 +44,8 @@ The repository includes batch, streaming and FHIR export paths, plus an ACI-Benc
 
 ### trial-matcher
 
+**Input:** a synthetic FHIR patient bundle and trial criteria. **Output:** evidence-linked criterion statuses, a reviewed screening report and a FHIR ResearchSubject bundle.
+
 **Motivation:** Trial pre-screening requires comparing a patient record with many eligibility criteria. Missing laboratory results, stale measurements and complex criteria can make a confident yes-or-no answer misleading.
 
 **What the program does:** trial-matcher compares a patient’s FHIR record with a ClinicalTrials.gov study and produces an evidence-linked status for each criterion: met, not met or unknown. It applies deterministic rules to supported criteria and leaves unsupported quantitative criteria for review. A study coordinator reviews the proposed result before a candidate status can be changed. The project supports pre-screening rather than making enrollment decisions.
@@ -52,13 +54,15 @@ The repository includes batch, streaming and FHIR export paths, plus an ACI-Benc
 
 {{< video src="trial-matcher.mp4" controls="yes" >}}
 
-**Demo scope:** Simplified threshold illustration with synthetic scalar inputs. This does not exercise FHIR parsing, trial retrieval or model assessment.
+**Recording scope:** The actual FHIR extraction, criterion rules, evidence links, coordinator review interrupt and ResearchSubject export run in the [repository interface](https://github.com/AnhDuongVo/trial-matcher/blob/main/examples/workflow.py). Synthetic patient and trial files are loaded locally. Criterion parsing and model assessments are scripted; no live ClinicalTrials.gov retrieval or model generation occurs. The video inspects HbA1c evidence and records a synthetic insulin override.
 
 **Try it offline:** clone [trial-matcher](https://github.com/AnhDuongVo/trial-matcher), install `pip install -e ".[dev]"`, then run `pytest -q`. The synthetic fixtures test extraction, rules and review overrides. `ctm demo` requires a model endpoint.
 
 Criteria parsing and qualitative assessments remain probabilistic. Confidence scores are heuristics, not calibrated probabilities. Coordinator review is needed before screening decisions are used.
 
 ### csr-assistant
+
+**Input:** a synthetic draft CSR, source tables and protocol synopsis. **Output:** an ICH E3 structure screen, findings, proposed cited sections, a revised draft and a writer review report.
 
 **Motivation:** Writing a clinical study report means translating source tables into a consistent narrative. Numbers, treatment arms and outcome descriptions can drift during drafting, and missing sections create additional review work.
 
@@ -68,13 +72,15 @@ Criteria parsing and qualitative assessments remain probabilistic. Confidence sc
 
 {{< video src="csr-assistant.mp4" controls="yes" >}}
 
-**Demo scope:** Selected values are compared with synthetic table rows; counts are exact and continuous rounding tolerance is explicit. This is not ICH E3 document review.
+**Recording scope:** The actual source loading, ICH E3 structure screen, drafting/revision loop, writer review and report assembly run in the [repository interface](https://github.com/AnhDuongVo/csr-assistant/blob/main/examples/workflow.py). The synthetic draft, tables and synopsis are visible; model responses are scripted. The video shows findings, missing sections, source-cited proposals and writer decisions. Errors in the original draft remain flagged for review; the output is not a final clinical document.
 
 **Try it offline:** clone [csr-assistant](https://github.com/AnhDuongVo/csr-assistant), install `pip install -e ".[dev]"`, then run `pytest -q`. The bundled synthetic study includes planted errors and correct claims. `csr demo` requires a model endpoint.
 
 Medical writers must review the revised text and unresolved findings. The repository includes an evaluation harness for error detection and false alarms.
 
 ### ai-scientist
+
+**Input:** a placeholder target structure, contigs, hotspots and design settings. **Output:** simulated candidate sequences, a ranked table, the pipeline call trace and a research report.
 
 **Motivation:** Exploring protein binder candidates involves several separate steps: reviewing literature, generating backbones, designing sequences and examining structural scores. Connecting these steps and keeping candidate inputs and results traceable is an engineering problem in its own right.
 
@@ -84,7 +90,7 @@ Medical writers must review the revised text and unresolved findings. The reposi
 
 {{< video src="ai-scientist.mp4" controls="yes" >}}
 
-**Demo scope:** Simulated scores with the protein-only ranking formula. No RFdiffusion, ProteinMPNN or Boltz-2 inference is performed.
+**Recording scope:** The [repository interface](https://github.com/AnhDuongVo/ai-scientist/blob/main/examples/workflow.py) runs the actual orchestration with SimulatedBioNeMo and a placeholder target. The video shows design settings, ranked sequences, stage-call trace and the assembled research report. RFdiffusion, ProteinMPNN and Boltz-2 responses are simulated; there is no live inference or literature retrieval. No target sequence is supplied, so folding is binder-only; scores have no biological meaning.
 
 **Try it offline:** clone [ai-scientist](https://github.com/AnhDuongVo/ai-scientist), install `pip install -e ".[dev]"`, then run `sci demo` and `pytest -q`.
 

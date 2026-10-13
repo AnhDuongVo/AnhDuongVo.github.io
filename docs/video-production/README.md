@@ -1,3 +1,11 @@
+## Repository workflow replacements — 13 October 2026
+
+Trial-matcher, csr-assistant and ai-scientist now record each full repository's `examples/workflow.py`. Trial-matcher executes FHIR extraction, criterion assessment, coordinator review and ResearchSubject export with scripted model responses. CSR-assistant executes source loading, ICH E3 structure checks, drafting/revision, writer review and report assembly with scripted model responses. AI-scientist executes the actual orchestration using SimulatedBioNeMo, with no retrieved literature and a placeholder target. It folds the binder alone. These are offline software demonstrations, not live inference or clinical/scientific validation.
+
+Continuous Chrome tab MediaRecorder footage is cropped to the software. Recorded interaction coordinates drive an eased cursor and brief terracotta click rings. Idle middles are trimmed while preserving interactions and results; playback is slowed to a readable pace. There are no added captions, end cards or audio. `prototype-video-manifest.json` records source duration, click timelines, edits and output hashes. The replaced MP4s, posters and README GIFs are checksum-verified in `old-videos/2026-10-13-before-workflows/` in the relevant repositories. The older production notes below describe superseded recordings.
+
+---
+
 ## SOAP workflow replacement — 12 October 2026
 
 The consult-to-note MP4 now records `consult-to-note/examples/soap_workflow.py`, which runs the actual LangGraph extraction, drafting, grounding, revision and FHIR pipeline. Input transcript and output SOAP note appear side by side. All four SOAP sections, evidence findings and the correction of an 800 mg scripted error to 400 mg are shown. Synthetic input and scripted model responses are explicitly labeled in the app; this is not live model generation. No captions or end cards are added. Recorded click coordinates drive a smooth cursor overlay and click rings; long idle gaps are shortened. `soap-video-manifest.json` records provenance, click timings and the new video hash.

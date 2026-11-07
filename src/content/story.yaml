@@ -6,13 +6,12 @@ bio: 'I’m Maria (Anh Duong Vo), a machine learning researcher with eight years
 
 
   During my PhD and postdoctoral research at ETH Zurich, I developed multimodal machine learning systems, collaborated with
-  industry partners, and worked on healthcare projects using different AI technologies, including NVIDIA tools. At Johnson
+  industry partners, and worked on healthcare projects with a range of AI technologies. At Johnson
   & Johnson Innovative Medicine, I designed LLM-based agent prototypes and evaluation methods informed by scientific experts.
 
 
   Alongside this work, I build open-source examples that help developers understand, evaluate and deploy agentic AI. Several
-  projects reconstruct selected patterns from healthcare and life-science workflows as independent examples, mostly using
-  NVIDIA technologies. These showcase repositories are distinct from the original research and industry systems. I also enjoy
+  projects reconstruct selected patterns from healthcare and life-science workflows as independent examples. These showcase repositories are distinct from the original research and industry systems. I also enjoy
   teaching, mentoring and helping technical communities grow.
 
 
@@ -20,8 +19,7 @@ bio: 'I’m Maria (Anh Duong Vo), a machine learning researcher with eight years
   behind this work.
 
   '
-where_i_stand: 'I am looking for industry roles in agentic AI and applied machine learning, including roles that work closely
-  with the developers who use these systems. If you would like to connect, collaborate, or discuss opportunities, feel free
+where_i_stand: 'I am looking for industry roles in agentic AI and applied machine learning. If you would like to connect, collaborate, or discuss opportunities, feel free
   to reach out by email or on LinkedIn.
 
   '
@@ -117,19 +115,15 @@ skills:
 - group: Agentic AI and LLMs
   items:
   - LLM agents and orchestration
-  - NeMo Agent Toolkit
   - LangGraph
   - MCP
   - Retrieval-augmented generation
   - Structured output
   - Evaluation and guardrails
   - Human-in-the-loop review
-  - NIM
-  - Nemotron
-  - NeMo Guardrails
-  - BioNeMo
+  - Open-weight LLMs
   - vLLM
-  - Dynamo
+  - Model serving
 - group: Machine learning
   items:
   - PyTorch

@@ -14,7 +14,7 @@ Machine learning researcher with eight years of AI and data science experience a
 |---|---|
 | [consult-to-note](https://github.com/AnhDuongVo/consult-to-note) | Evidence-linked clinical note drafts, explicit deterministic failure flags, and optional clinician review |
 | [agenteval](https://github.com/AnhDuongVo/agenteval) | Reconciled tool traces, clearly defined metrics, and a 40-minute workshop |
-| [mcp-bionemo](https://github.com/AnhDuongVo/mcp-bionemo) | Typed interfaces for selected BioNeMo endpoints, an offline simulator, and a working stdio client walkthrough |
+| [mcp-bionemo](https://github.com/AnhDuongVo/mcp-bionemo) | Typed interfaces for selected protein-design model endpoints, an offline simulator, and a working stdio client walkthrough |
 | [agentsim](https://github.com/AnhDuongVo/agentsim) | Agent-serving simulation with explicit assumptions and benchmark provenance |
 
 For healthcare workflows, see [trial-matcher](https://github.com/AnhDuongVo/trial-matcher) and [csr-assistant](https://github.com/AnhDuongVo/csr-assistant). These independent showcase implementations are distinct from the original research and industry systems. Each documents tested behavior, untested integrations, and domain-validation limits.

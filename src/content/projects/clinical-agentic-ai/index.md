@@ -9,7 +9,6 @@ tags:
 - Agentic AI
 - LLM Agents
 - Healthcare
-- NVIDIA
 - RAG
 short: Clinical agents
 card: From consultation transcripts to reviewable notes; from patient records and
@@ -18,11 +17,11 @@ card: From consultation transcripts to reviewable notes; from patient records an
 
 These independent projects explore clinical documentation, trial pre-screening, clinical study reporting and protein-design research. They draw on problems encountered during my research and industry collaborations, reconstructed in my own time as developer examples.
 
-The common engineering problem is reviewing generated outputs against evidence. The projects combine structured outputs, source references, deterministic checks where applicable, and human-review steps using Nemotron, NVIDIA NIM, NeMo Agent Toolkit and BioNeMo. The scope of each check is documented; these are research and developer examples and have not been clinically validated.
+The common engineering problem is reviewing generated outputs against evidence. The projects combine structured outputs, source references, deterministic checks where applicable, and human-review steps, built with open-weight LLMs, an agent framework and protein-design models. The scope of each check is documented; these are research and developer examples and have not been clinically validated.
 
 ## Watch the workflows
 
-Each recording runs its full repository’s workflow through a reproducible interface. Inputs are synthetic. Consult-to-note, trial-matcher and csr-assistant use clearly labeled scripted model responses; ai-scientist uses its repository’s BioNeMo simulator. These recordings demonstrate software execution without live model endpoints. The recording scope is stated for each project.
+Each recording runs its full repository’s workflow through a reproducible interface. Inputs are synthetic. Consult-to-note, trial-matcher and csr-assistant use clearly labeled scripted model responses; ai-scientist uses its repository’s offline simulator. These recordings demonstrate software execution without live model endpoints. The recording scope is stated for each project.
 
 ### consult-to-note
 
@@ -40,7 +39,7 @@ Each recording runs its full repository’s workflow through a reproducible inte
 
 **Try it offline:** clone [consult-to-note](https://github.com/AnhDuongVo/consult-to-note), install `pip install -e ".[dev]"`, then run `pytest -q`. Tests use synthetic fixtures and model stubs. `c2n demo --no-trials` generates text using a configured model endpoint and requires its credentials; it is a separate live path.
 
-The repository includes batch, streaming and FHIR export paths, plus an ACI-Bench evaluation harness. A NAT invocation returns a preliminary, reviewable draft; clinician approval requires the explicit review workflow. Hosted and self-hosted NVIDIA runs need separate validation.
+The repository includes batch, streaming and FHIR export paths, plus an ACI-Bench evaluation harness. An agent-toolkit invocation returns a preliminary, reviewable draft; clinician approval requires the explicit review workflow. Hosted and self-hosted model runs need separate validation.
 
 ### trial-matcher
 
@@ -90,11 +89,11 @@ Medical writers must review the revised text and unresolved findings. The reposi
 
 {{< video src="ai-scientist.mp4" controls="yes" >}}
 
-**Recording scope:** The [repository interface](https://github.com/AnhDuongVo/ai-scientist/blob/main/examples/workflow.py) runs the actual orchestration with SimulatedBioNeMo and a placeholder target. The video shows design settings, ranked sequences, stage-call trace and the assembled research report. RFdiffusion, ProteinMPNN and Boltz-2 responses are simulated; there is no live inference or literature retrieval. No target sequence is supplied, so folding is binder-only; scores have no biological meaning.
+**Recording scope:** The [repository interface](https://github.com/AnhDuongVo/ai-scientist/blob/main/examples/workflow.py) runs the actual orchestration with its offline simulator and a placeholder target. The video shows design settings, ranked sequences, stage-call trace and the assembled research report. RFdiffusion, ProteinMPNN and Boltz-2 responses are simulated; there is no live inference or literature retrieval. No target sequence is supplied, so folding is binder-only; scores have no biological meaning.
 
 **Try it offline:** clone [ai-scientist](https://github.com/AnhDuongVo/ai-scientist), install `pip install -e ".[dev]"`, then run `sci demo` and `pytest -q`.
 
-The offline structures and scores are synthetic. The composite ranking is a heuristic, not a validated binding prediction. Folding a binder alone does not measure binding. Live BioNeMo calls require real target inputs and separate endpoint validation; experimental follow-up is necessary for scientific conclusions.
+The offline structures and scores are synthetic. The composite ranking is a heuristic, not a validated binding prediction. Folding a binder alone does not measure binding. Live model calls require real target inputs and separate endpoint validation; experimental follow-up is necessary for scientific conclusions.
 
 ## Reproduce and inspect
 

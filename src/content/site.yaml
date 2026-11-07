@@ -26,26 +26,26 @@ repos:
 - name: consult-to-note
   text: Turn consultation transcripts into evidence-linked SOAP note drafts for clinician
     review
-  stack: Nemotron · NeMo Agent Toolkit · Riva
+  stack: LLM agents · speech recognition · FHIR
 - name: trial-matcher
   text: Compare patient records with trial criteria and show what is met, unmet or
     unknown
-  stack: Nemotron · FHIR · ClinicalTrials.gov
+  stack: FHIR · ClinicalTrials.gov
 - name: csr-assistant
   text: Draft study-report sections from tables and flag selected inconsistencies
     for medical writers
-  stack: Nemotron · ICH E3
+  stack: ICH E3 · structured output
 - name: ai-scientist
   text: Connect protein-design steps and assemble traceable candidate reports for
     scientific review
-  stack: BioNeMo NIMs
+  stack: Protein design · agent orchestration
 - name: clinical-agentic-ai-demo
   text: Explore four workflow ideas interactively with synthetic inputs and simplified
     checks
   stack: Streamlit
 - name: mcp-bionemo
-  text: Let MCP clients discover and call selected BioNeMo models through typed tools
-  stack: MCP · BioNeMo
+  text: Let MCP clients discover and call selected protein-design models through typed tools
+  stack: MCP · protein design
 - name: agenteval
   text: Inspect agent tool use and screen citations and numerical claims with explicit
     metrics

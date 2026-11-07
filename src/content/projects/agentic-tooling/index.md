@@ -12,7 +12,7 @@ tags:
 - RAG
 - Developer Tools
 short: Tooling
-card: Connect BioNeMo tools to agents, inspect their tool use and check whether cited
+card: Connect scientific model tools to agents, inspect their tool use and check whether cited
   evidence supports selected answer details.
 ---
 
@@ -22,13 +22,13 @@ These tools address recurring integration and evaluation problems I encountered 
 
 **Motivation:** An agent using scientific models needs a clear contract for each tool’s inputs, outputs and errors. Connecting every client directly to endpoint-specific HTTP calls also makes integration difficult to test without credentials or model access.
 
-**What the program does:** mcp-bionemo exposes selected BioNeMo model operations as typed Model Context Protocol (MCP) tools. An MCP client can discover the tools, submit structured requests and receive results through one interface. A deterministic simulator supports offline integration tests, while an optional live backend routes calls to configured NIM endpoints. The project focuses on the integration boundary, not scientific validation.
+**What the program does:** mcp-bionemo exposes selected protein-design model operations (RFdiffusion, ProteinMPNN, Boltz-2) as typed Model Context Protocol (MCP) tools. An MCP client can discover the tools, submit structured requests and receive results through one interface. A deterministic simulator supports offline integration tests, while an optional live backend routes calls to configured hosted endpoints. The project focuses on the integration boundary, not scientific validation.
 
-[mcp-bionemo](https://github.com/AnhDuongVo/mcp-bionemo) exposes selected BioNeMo NIM calls through typed MCP tools and an offline simulator. Its focus is a lightweight interface developers can inspect and test. NVIDIA also offers scientific agent tooling; this project does not claim to be the only integration route.
+[mcp-bionemo](https://github.com/AnhDuongVo/mcp-bionemo) exposes selected model calls through typed MCP tools and an offline simulator. Its focus is a lightweight interface developers can inspect and test; it is one of several possible integration routes.
 
 ![mcp-bionemo CLI input and output](mcp-bionemo.png)
 
-**Example scope:** Actual local MCP discovery and design_backbone invocation against the simulator. This does not validate live BioNeMo NIM endpoints.
+**Example scope:** Actual local MCP discovery and design_backbone invocation against the simulator. This does not validate live model endpoints.
 
 Install `pip install -e ".[dev]"` and run `pytest -q` for simulator and mocked-client tests. The repository includes a stdio MCP-client walkthrough. Set `BIONEMO_BACKEND=live` only when you have endpoint access, credentials and scientifically appropriate inputs. The simulator exercises integration logic and produces meaningless scientific scores.
 
